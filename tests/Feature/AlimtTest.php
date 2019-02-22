@@ -42,6 +42,7 @@ class AlimtTest extends TestCase
                               ->connectTimeout(15)
                               ->timeout(20)
                               ->request();
+        dump($result->toArray());
         self::assertArrayHasKey('Data', $result);
     }
 }

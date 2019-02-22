@@ -104,7 +104,6 @@ use AlibabaCloud\ApiResolverTrait;
  * @method DescribeScreenVersionConfig describeScreenVersionConfig(array $options = [])
  * @method DescribeSearchCondition describeSearchCondition(array $options = [])
  * @method DescribeSecurityStatInfo describeSecurityStatInfo(array $options = [])
- * @method DescribeStatistics describeStatistics(array $options = [])
  * @method DescribeStrategy describeStrategy(array $options = [])
  * @method DescribeStrategyExecDetail describeStrategyExecDetail(array $options = [])
  * @method DescribeStrategyProcess describeStrategyProcess(array $options = [])
