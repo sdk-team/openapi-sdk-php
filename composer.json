@@ -25,13 +25,18 @@
     ],
     "require": {
         "php": ">=5.5",
+        "ext-curl": "*",
         "ext-json": "*",
-        "ext-mbstring": "*",
-        "alibabacloud/client": "^1.0",
-        "ext-xmlwriter": "*",
         "ext-libxml": "*",
+        "ext-mbstring": "*",
         "ext-simplexml": "*",
-        "ext-curl": "*"
+        "ext-xmlwriter": "*",
+        "alibabacloud/client": "^1.0",
+        "greencape/xml-converter": "^1.1",
+        "openlss/lib-array2xml": "^0.5.1",
+        "pn/epp-xml2array": "dev-master",
+        "sb15/xml-string-to-php-array": "^0.0.1",
+        "vyuldashev/xml-to-array": "^1.0"
     },
     "require-dev": {
         "composer/composer": "^1.8",
@@ -102,6 +107,9 @@
         "prompts": [
             "AlibabaCloud\\DumpServices::dump",
             "@fixer"
+        ],
+        "pop": [
+            "AlibabaCloud\\Acs\\Products::update"
         ],
         "release": [
             "AlibabaCloud\\Release::release"
