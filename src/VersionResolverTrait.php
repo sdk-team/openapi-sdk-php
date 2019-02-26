@@ -13,21 +13,6 @@ trait VersionResolverTrait
 {
 
     /**
-     * @var bool
-     */
-    protected $static = false;
-
-    /**
-     * Version Resolver constructor.
-     *
-     * @param bool $static
-     */
-    public function __construct($static = false)
-    {
-        $this->static = $static;
-    }
-
-    /**
      * @param      $version
      * @param      $arguments
      *
@@ -39,13 +24,7 @@ trait VersionResolverTrait
         $serviceName = $this->getServiceName(\get_class($this));
 
         $version = \ucfirst($version);
-
-        if ($this->static === true) {
-            $serviceName = \str_replace('Version', '', $serviceName);
-            $class       = "AlibabaCloud\\{$serviceName}\\$version\\{$serviceName}ApiResolver";
-        } else {
-            $class = "AlibabaCloud\\{$serviceName}\\$version\\{$serviceName}";
-        }
+        $class   = "AlibabaCloud\\{$serviceName}\\$version\\{$version}";
 
         if (\class_exists($class)) {
             return new $class();
@@ -55,17 +34,6 @@ trait VersionResolverTrait
             "$serviceName Versions contains no {$version}",
             'SDK.VersionNotFound'
         );
-    }
-
-    /**
-     * @param $name
-     * @param $arguments
-     *
-     * @return mixed
-     */
-    public static function __callStatic($name, $arguments)
-    {
-        return (new static(true))->__call($name, $arguments);
     }
 
     /**

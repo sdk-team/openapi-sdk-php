@@ -2,16 +2,15 @@
 
 namespace AlibabaCloud\BssOpenApi;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\BssOpenApi\V20171214\V20171214;
+use AlibabaCloud\BssOpenApi\V20181220\V20181220;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the BssOpenApi based on the method name as the version name.
- *
- * @package   AlibabaCloud\BssOpenApi
- *
- * @method V20171214\BssOpenApiApiResolver v20171214()
+ * @method V20171214 v20171214()
+ * @method V20181220 v20181220()
  */
 class BssOpenApi
 {
-    use VersionResolverTrait;
+    use R;
 }

@@ -2,16 +2,15 @@
 
 namespace AlibabaCloud\Push;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Push\V20150827\V20150827;
+use AlibabaCloud\Push\V20160801\V20160801;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Push based on the method name as the version name.
- *
- * @package   AlibabaCloud\Push
- *
- * @method V20160801\PushApiResolver v20160801()
+ * @method V20150827 v20150827()
+ * @method V20160801 v20160801()
  */
 class Push
 {
-    use VersionResolverTrait;
+    use R;
 }

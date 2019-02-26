@@ -5,14 +5,8 @@ namespace AlibabaCloud;
 use AlibabaCloud\Client\AlibabaCloud;
 
 /**
- * Find service based on the static method name as service name.
- *
- * @package   AlibabaCloud
- *
- * @mixin     AlibabaCloud
- *
+ * @mixin AlibabaCloud
  * @codeCoverageIgnore
- *
  * @method static ARMS\ARMS aRMS()
  * @method static ARMS4FINANCE\ARMS4FINANCE aRMS4FINANCE()
  * @method static Aegis\Aegis aegis()

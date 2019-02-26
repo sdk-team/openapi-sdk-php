@@ -39,17 +39,6 @@ trait ApiResolverTrait
     }
 
     /**
-     * @param $name
-     * @param $arguments
-     *
-     * @return mixed
-     */
-    public static function __callStatic($name, $arguments)
-    {
-        return (new static())->__call($name, $arguments);
-    }
-
-    /**
      * @param string $class
      *
      * @return mixed

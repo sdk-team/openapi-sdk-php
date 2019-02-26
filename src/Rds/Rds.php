@@ -2,16 +2,17 @@
 
 namespace AlibabaCloud\Rds;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Rds\V20120615\V20120615;
+use AlibabaCloud\Rds\V20130528\V20130528;
+use AlibabaCloud\Rds\V20140815\V20140815;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Rds based on the method name as the version name.
- *
- * @package   AlibabaCloud\Rds
- *
- * @method V20140815\RdsApiResolver v20140815()
+ * @method V20120615 v20120615()
+ * @method V20130528 v20130528()
+ * @method V20140815 v20140815()
  */
 class Rds
 {
-    use VersionResolverTrait;
+    use R;
 }

@@ -2,16 +2,21 @@
 
 namespace AlibabaCloud\CS;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\CS\V20151215\V20151215;
+use AlibabaCloud\CS\V20180417\V20180417;
+use AlibabaCloud\CS\V20180418\V20180418;
+use AlibabaCloud\CS\V28180417\V28180417;
+use AlibabaCloud\CS\V28180418\V28180418;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the CS based on the method name as the version name.
- *
- * @package   AlibabaCloud\CS
- *
- * @method V20151215\CSApiResolver v20151215()
+ * @method V20151215 v20151215()
+ * @method V20180417 v20180417()
+ * @method V20180418 v20180418()
+ * @method V28180417 v28180417()
+ * @method V28180418 v28180418()
  */
 class CS
 {
-    use VersionResolverTrait;
+    use R;
 }

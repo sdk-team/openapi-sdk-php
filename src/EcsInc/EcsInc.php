@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\EcsInc;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\EcsInc\V20160314\V20160314;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the EcsInc based on the method name as the version name.
- *
- * @package   AlibabaCloud\EcsInc
- *
- * @method V20160314\EcsIncApiResolver v20160314()
+ * @method V20160314 v20160314()
  */
 class EcsInc
 {
-    use VersionResolverTrait;
+    use R;
 }

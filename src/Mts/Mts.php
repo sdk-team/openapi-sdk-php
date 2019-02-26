@@ -2,16 +2,17 @@
 
 namespace AlibabaCloud\Mts;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Mts\V20140618\V20140618;
+use AlibabaCloud\Mts\V20180201\V20180201;
+use AlibabaCloud\Mts\V20180528\V20180528;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Mts based on the method name as the version name.
- *
- * @package   AlibabaCloud\Mts
- *
- * @method V20140618\MtsApiResolver v20140618()
+ * @method V20140618 v20140618()
+ * @method V20180201 v20180201()
+ * @method V20180528 v20180528()
  */
 class Mts
 {
-    use VersionResolverTrait;
+    use R;
 }

@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\Ccs;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Ccs\V20171001\V20171001;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Ccs based on the method name as the version name.
- *
- * @package   AlibabaCloud\Ccs
- *
- * @method V20171001\CcsApiResolver v20171001()
+ * @method V20171001 v20171001()
  */
 class Ccs
 {
-    use VersionResolverTrait;
+    use R;
 }

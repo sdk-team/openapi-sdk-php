@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\Vpc;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\VersionResolverTrait as R;
+use AlibabaCloud\Vpc\V20160428\V20160428;
 
 /**
- * Find the specified version of the Vpc based on the method name as the version name.
- *
- * @package   AlibabaCloud\Vpc
- *
- * @method V20160428\VpcApiResolver v20160428()
+ * @method V20160428 v20160428()
  */
 class Vpc
 {
-    use VersionResolverTrait;
+    use R;
 }

@@ -2,16 +2,15 @@
 
 namespace AlibabaCloud\Dysmsapi;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Dysmsapi\V20170525\V20170525;
+use AlibabaCloud\Dysmsapi\V20180501\V20180501;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Dysmsapi based on the method name as the version name.
- *
- * @package   AlibabaCloud\Dysmsapi
- *
- * @method V20170525\DysmsapiApiResolver v20170525()
+ * @method V20170525 v20170525()
+ * @method V20180501 v20180501()
  */
 class Dysmsapi
 {
-    use VersionResolverTrait;
+    use R;
 }

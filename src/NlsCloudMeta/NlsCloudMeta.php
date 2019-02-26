@@ -2,16 +2,15 @@
 
 namespace AlibabaCloud\NlsCloudMeta;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\NlsCloudMeta\V20171214\V20171214;
+use AlibabaCloud\NlsCloudMeta\V20180518\V20180518;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the NlsCloudMeta based on the method name as the version name.
- *
- * @package   AlibabaCloud\NlsCloudMeta
- *
- * @method V20180518\NlsCloudMetaApiResolver v20180518()
+ * @method V20171214 v20171214()
+ * @method V20180518 v20180518()
  */
 class NlsCloudMeta
 {
-    use VersionResolverTrait;
+    use R;
 }

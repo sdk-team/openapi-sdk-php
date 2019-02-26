@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\Scdn;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Scdn\V20171115\V20171115;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Scdn based on the method name as the version name.
- *
- * @package   AlibabaCloud\Scdn
- *
- * @method V20171115\ScdnApiResolver v20171115()
+ * @method V20171115 v20171115()
  */
 class Scdn
 {
-    use VersionResolverTrait;
+    use R;
 }

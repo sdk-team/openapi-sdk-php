@@ -2,16 +2,15 @@
 
 namespace AlibabaCloud\SasApi;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\SasApi\V20170626\V20170626;
+use AlibabaCloud\SasApi\V20170705\V20170705;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the SasApi based on the method name as the version name.
- *
- * @package   AlibabaCloud\SasApi
- *
- * @method V20170705\SasApiApiResolver v20170705()
+ * @method V20170626 v20170626()
+ * @method V20170705 v20170705()
  */
 class SasApi
 {
-    use VersionResolverTrait;
+    use R;
 }

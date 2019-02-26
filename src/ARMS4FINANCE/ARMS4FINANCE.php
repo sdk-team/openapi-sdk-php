@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\ARMS4FINANCE;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\ARMS4FINANCE\V20171130\V20171130;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the ARMS4FINANCE based on the method name as the version name.
- *
- * @package   AlibabaCloud\ARMS4FINANCE
- *
- * @method V20171130\ARMS4FINANCEApiResolver v20171130()
+ * @method V20171130 v20171130()
  */
 class ARMS4FINANCE
 {
-    use VersionResolverTrait;
+    use R;
 }

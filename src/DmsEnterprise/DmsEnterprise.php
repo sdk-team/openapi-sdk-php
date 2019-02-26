@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\DmsEnterprise;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\DmsEnterprise\V20181101\V20181101;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the DmsEnterprise based on the method name as the version name.
- *
- * @package   AlibabaCloud\DmsEnterprise
- *
- * @method V20181101\DmsEnterpriseApiResolver v20181101()
+ * @method V20181101 v20181101()
  */
 class DmsEnterprise
 {
-    use VersionResolverTrait;
+    use R;
 }

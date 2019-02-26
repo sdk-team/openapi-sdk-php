@@ -2,16 +2,15 @@
 
 namespace AlibabaCloud\Linkedmall;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Linkedmall\V20180116\V20180116;
+use AlibabaCloud\Linkedmall\V20180308\V20180308;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Linkedmall based on the method name as the version name.
- *
- * @package   AlibabaCloud\Linkedmall
- *
- * @method V20180116\LinkedmallApiResolver v20180116()
+ * @method V20180116 v20180116()
+ * @method V20180308 v20180308()
  */
 class Linkedmall
 {
-    use VersionResolverTrait;
+    use R;
 }

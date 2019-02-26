@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\Alidns;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Alidns\V20150109\V20150109;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Alidns based on the method name as the version name.
- *
- * @package   AlibabaCloud\Alidns
- *
- * @method V20150109\AlidnsApiResolver v20150109()
+ * @method V20150109 v20150109()
  */
 class Alidns
 {
-    use VersionResolverTrait;
+    use R;
 }

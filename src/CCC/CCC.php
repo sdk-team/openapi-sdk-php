@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\CCC;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\CCC\V20170705\V20170705;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the CCC based on the method name as the version name.
- *
- * @package   AlibabaCloud\CCC
- *
- * @method V20170705\CCCApiResolver v20170705()
+ * @method V20170705 v20170705()
  */
 class CCC
 {
-    use VersionResolverTrait;
+    use R;
 }

@@ -2,16 +2,15 @@
 
 namespace AlibabaCloud\Crm;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Crm\V20150408\V20150408;
+use AlibabaCloud\Crm\V20160302\V20160302;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Crm based on the method name as the version name.
- *
- * @package   AlibabaCloud\Crm
- *
- * @method V20150408\CrmApiResolver v20150408()
+ * @method V20150408 v20150408()
+ * @method V20160302 v20160302()
  */
 class Crm
 {
-    use VersionResolverTrait;
+    use R;
 }

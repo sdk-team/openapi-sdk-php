@@ -53,7 +53,8 @@
     },
     "autoload": {
         "psr-4": {
-            "AlibabaCloud\\": "src"
+            "AlibabaCloud\\": "src",
+            "AlibabaCloud\\Build\\": "build"
         },
         "files": [
             "src/Constants.php"
@@ -92,7 +93,7 @@
     "scripts": {
         "cs": "phpcs --standard=PSR2 -n ./",
         "cbf": "phpcbf --standard=PSR2 -n ./",
-        "fixer": "php-cs-fixer fix ./",
+        "fixer": "@php -d memory_limit=-1 vendor/bin/php-cs-fixer fix ./",
         "test": [
             "@clearCache",
             "phpunit --colors=always"
@@ -112,7 +113,7 @@
             "@fixer"
         ],
         "pop": [
-            "AlibabaCloud\\CompileArray::compile"
+            "AlibabaCloud\\Build\\Compile::compile"
         ],
         "release": [
             "AlibabaCloud\\Release::release"

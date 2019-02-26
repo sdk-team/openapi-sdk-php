@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\Lubancloud;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Lubancloud\V20180509\V20180509;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Lubancloud based on the method name as the version name.
- *
- * @package   AlibabaCloud\Lubancloud
- *
- * @method V20180509\LubancloudApiResolver v20180509()
+ * @method V20180509 v20180509()
  */
 class Lubancloud
 {
-    use VersionResolverTrait;
+    use R;
 }

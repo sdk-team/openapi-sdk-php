@@ -2,17 +2,21 @@
 
 namespace AlibabaCloud\Domain;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Domain\V20160503\V20160503;
+use AlibabaCloud\Domain\V20160511\V20160511;
+use AlibabaCloud\Domain\V20180129\V20180129;
+use AlibabaCloud\Domain\V20180208\V20180208;
+use AlibabaCloud\Domain\V2018124\V2018124;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Domain based on the method name as the version name.
- *
- * @package   AlibabaCloud\Domain
- *
- * @method V20180129\DomainApiResolver v20180129()
- * @method V20180208\DomainApiResolver v20180208()
+ * @method V20160503 v20160503()
+ * @method V20160511 v20160511()
+ * @method V20180129 v20180129()
+ * @method V20180208 v20180208()
+ * @method V2018124 v2018124()
  */
 class Domain
 {
-    use VersionResolverTrait;
+    use R;
 }

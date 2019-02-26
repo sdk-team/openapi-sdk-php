@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\Ubsms;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Ubsms\V20150623\V20150623;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Ubsms based on the method name as the version name.
- *
- * @package   AlibabaCloud\Ubsms
- *
- * @method V20150623\UbsmsApiResolver v20150623()
+ * @method V20150623 v20150623()
  */
 class Ubsms
 {
-    use VersionResolverTrait;
+    use R;
 }

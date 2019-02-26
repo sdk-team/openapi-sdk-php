@@ -2,16 +2,15 @@
 
 namespace AlibabaCloud\Chatbot;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Chatbot\V20171011\V20171011;
+use AlibabaCloud\Chatbot\V20180814\V20180814;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Chatbot based on the method name as the version name.
- *
- * @package   AlibabaCloud\Chatbot
- *
- * @method V20171011\ChatbotApiResolver v20171011()
+ * @method V20171011 v20171011()
+ * @method V20180814 v20180814()
  */
 class Chatbot
 {
-    use VersionResolverTrait;
+    use R;
 }

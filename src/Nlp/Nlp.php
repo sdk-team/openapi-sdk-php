@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\Nlp;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Nlp\V20180408\V20180408;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Nlp based on the method name as the version name.
- *
- * @package   AlibabaCloud\Nlp
- *
- * @method V20180408\NlpApiResolver v20180408()
+ * @method V20180408 v20180408()
  */
 class Nlp
 {
-    use VersionResolverTrait;
+    use R;
 }

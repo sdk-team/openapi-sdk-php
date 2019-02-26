@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\CSB;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\CSB\V20171118\V20171118;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the CSB based on the method name as the version name.
- *
- * @package   AlibabaCloud\CSB
- *
- * @method V20171118\CSBApiResolver v20171118()
+ * @method V20171118 v20171118()
  */
 class CSB
 {
-    use VersionResolverTrait;
+    use R;
 }

@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\Aegis;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Aegis\V20161111\V20161111;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the Aegis based on the method name as the version name.
- *
- * @package   AlibabaCloud\Aegis
- *
- * @method V20161111\AegisApiResolver v20161111()
+ * @method V20161111 v20161111()
  */
 class Aegis
 {
-    use VersionResolverTrait;
+    use R;
 }

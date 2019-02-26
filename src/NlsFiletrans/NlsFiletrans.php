@@ -2,16 +2,13 @@
 
 namespace AlibabaCloud\NlsFiletrans;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\NlsFiletrans\V20180817\V20180817;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the NlsFiletrans based on the method name as the version name.
- *
- * @package   AlibabaCloud\NlsFiletrans
- *
- * @method V20180817\NlsFiletransApiResolver v20180817()
+ * @method V20180817 v20180817()
  */
 class NlsFiletrans
 {
-    use VersionResolverTrait;
+    use R;
 }

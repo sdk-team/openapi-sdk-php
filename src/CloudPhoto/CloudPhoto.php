@@ -2,16 +2,17 @@
 
 namespace AlibabaCloud\CloudPhoto;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\CloudPhoto\V20170502\V20170502;
+use AlibabaCloud\CloudPhoto\V20170511\V20170511;
+use AlibabaCloud\CloudPhoto\V20170711\V20170711;
+use AlibabaCloud\VersionResolverTrait as R;
 
 /**
- * Find the specified version of the CloudPhoto based on the method name as the version name.
- *
- * @package   AlibabaCloud\CloudPhoto
- *
- * @method V20170711\CloudPhotoApiResolver v20170711()
+ * @method V20170502 v20170502()
+ * @method V20170511 v20170511()
+ * @method V20170711 v20170711()
  */
 class CloudPhoto
 {
-    use VersionResolverTrait;
+    use R;
 }
