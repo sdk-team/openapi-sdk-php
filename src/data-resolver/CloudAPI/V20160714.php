@@ -1,0 +1,1877 @@
+<?php
+
+namespace AlibabaCloud\CloudAPI\V20160714;
+
+use AlibabaCloud\Client\Request\RpcRequest;
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getTargetInstanceId
+ * @method self withTargetInstanceId
+ * @method string getRemark
+ * @method self withRemark
+ */
+final class ModifyGroupInstance extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getPluginId
+ * @method self withPluginId
+ */
+final class DeletePlugin extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getPluginId
+ * @method self withPluginId
+ * @method Integer getPageSize
+ * @method self withPageSize
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ */
+final class DescribePluginApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getPluginName
+ * @method self withPluginName
+ * @method string getPluginType
+ * @method self withPluginType
+ * @method string getPluginData
+ * @method self withPluginData
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class CreatePlugin extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getPluginId
+ * @method self withPluginId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiId
+ * @method self withApiId
+ */
+final class AttachPlugin extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getPluginId
+ * @method self withPluginId
+ * @method string getPluginType
+ * @method self withPluginType
+ * @method string getPluginName
+ * @method self withPluginName
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribePlugins extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class DescribePluginsByApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getPluginId
+ * @method self withPluginId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiId
+ * @method self withApiId
+ */
+final class DetachPlugin extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getPluginId
+ * @method self withPluginId
+ * @method string getPluginName
+ * @method self withPluginName
+ * @method string getPluginData
+ * @method self withPluginData
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class ModifyPlugin extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Long getAppId
+ * @method self withAppId
+ */
+final class DescribeApp extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getAuthAppCode
+ * @method self withAuthAppCode
+ */
+final class SetGroupAuthAppCode extends RpcRequest
+{
+}
+
+/**
+ * @method string getModelName
+ * @method self withModelName
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSchema
+ * @method self withSchema
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class CreateModel extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getModelName
+ * @method self withModelName
+ * @method string getGroupId
+ * @method self withGroupId
+ */
+final class DeleteModel extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getModelName
+ * @method self withModelName
+ * @method Integer getPageSize
+ * @method self withPageSize
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method string getModelId
+ * @method self withModelId
+ */
+final class DescribeModels extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getModelName
+ * @method self withModelName
+ * @method string getDescription
+ * @method self withDescription
+ * @method string getSchema
+ * @method self withSchema
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getNewModelName
+ * @method self withNewModelName
+ */
+final class ModifyModel extends RpcRequest
+{
+}
+
+/**
+ * @method string getInstanceId
+ * @method self withInstanceId
+ */
+final class GenerateInstanceToken extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method Boolean getDeleteInternetDomain
+ * @method self withDeleteInternetDomain
+ */
+final class CreateIntranetDomain extends RpcRequest
+{
+}
+
+/**
+ * @method Boolean getOverwrite
+ * @method self withOverwrite
+ * @method string getDataFormat
+ * @method self withDataFormat
+ * @method string getData
+ * @method self withData
+ * @method string getGroupId
+ * @method self withGroupId
+ */
+final class ImportSwagger extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class SetIpControlApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ * @method string getPolicyItemIds
+ * @method self withPolicyItemIds
+ */
+final class RemoveIpControlPolicyItem extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class RemoveIpControlApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ * @method string getPolicyItemId
+ * @method self withPolicyItemId
+ * @method string getAppId
+ * @method self withAppId
+ * @method string getCidrIp
+ * @method self withCidrIp
+ */
+final class ModifyIpControlPolicyItem extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ * @method string getIpControlName
+ * @method self withIpControlName
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class ModifyIpControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ * @method string getIpControlName
+ * @method self withIpControlName
+ * @method string getIpControlType
+ * @method self withIpControlType
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeIpControls extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ * @method string getPolicyItemId
+ * @method self withPolicyItemId
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeIpControlPolicyItems extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ * @method Integer getPageSize
+ * @method self withPageSize
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ */
+final class DescribeApisByIpControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeApiIpControls extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ */
+final class DeleteIpControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlName
+ * @method self withIpControlName
+ * @method string getIpControlType
+ * @method self withIpControlType
+ * @method string getDescription
+ * @method self withDescription
+ * @method RepeatList getIpControlPolicys
+ * @method self withIpControlPolicys
+ */
+final class CreateIpControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getIpControlId
+ * @method self withIpControlId
+ * @method string getAppId
+ * @method self withAppId
+ * @method string getCidrIp
+ * @method self withCidrIp
+ */
+final class AddIpControlPolicyItem extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSlsProject
+ * @method self withSlsProject
+ * @method string getSlsLogStore
+ * @method self withSlsLogStore
+ * @method string getLogType
+ * @method self withLogType
+ */
+final class ModifyLogConfig extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getLogType
+ * @method self withLogType
+ */
+final class DescribeLogConfig extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getLogType
+ * @method self withLogType
+ */
+final class DeleteLogConfig extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSlsProject
+ * @method self withSlsProject
+ * @method string getSlsLogStore
+ * @method self withSlsLogStore
+ * @method string getLogType
+ * @method self withLogType
+ */
+final class CreateLogConfig extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getDomainName
+ * @method self withDomainName
+ * @method string getActionValue
+ * @method self withActionValue
+ */
+final class SetDomainWebSocketStatus extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getCatalogId
+ * @method self withCatalogId
+ */
+final class RemoveCatalogRelations extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getCatalogId
+ * @method self withCatalogId
+ * @method string getApiId
+ * @method self withApiId
+ */
+final class RemoveCatalogRelation extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getCatalogId
+ * @method self withCatalogId
+ * @method string getCatalogName
+ * @method self withCatalogName
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class ModifyCatalog extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ */
+final class DescribeCatalogs extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getCatalogId
+ * @method self withCatalogId
+ */
+final class DescribeCatalog extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getCatalogId
+ * @method self withCatalogId
+ */
+final class DeleteCatalog extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getCatalogName
+ * @method self withCatalogName
+ * @method string getDescription
+ * @method self withDescription
+ * @method string getParentId
+ * @method self withParentId
+ */
+final class CreateCatalog extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getCatalogId
+ * @method self withCatalogId
+ */
+final class ClearCatalogRelations extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getCatalogId
+ * @method self withCatalogId
+ * @method string getApiIds
+ * @method self withApiIds
+ */
+final class AddCatalogRelations extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getCatalogId
+ * @method self withCatalogId
+ * @method string getApiId
+ * @method self withApiId
+ */
+final class AddCatalogRelation extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getVpcId
+ * @method self withVpcId
+ * @method string getInstanceId
+ * @method self withInstanceId
+ * @method Integer getPort
+ * @method self withPort
+ */
+final class RemoveVpcAccess extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getName
+ * @method self withName
+ * @method string getVpcId
+ * @method self withVpcId
+ * @method string getInstanceId
+ * @method self withInstanceId
+ * @method Integer getPort
+ * @method self withPort
+ */
+final class SetVpcAccess extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeVpcAccesses extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getDomainName
+ * @method self withDomainName
+ */
+final class ReactivateDomain extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getApiName
+ * @method self withApiName
+ * @method string getPageSize
+ * @method self withPageSize
+ * @method string getPageNumber
+ * @method self withPageNumber
+ */
+final class DescribeApiHistories extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getLanguage
+ * @method self withLanguage
+ */
+final class SdkGenerateByGroup extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Long getAppId
+ * @method self withAppId
+ * @method string getLanguage
+ * @method self withLanguage
+ */
+final class SdkGenerateByApp extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Long getAppId
+ * @method self withAppId
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeApisByApp extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method Long getAppId
+ * @method self withAppId
+ * @method string getLanguage
+ * @method self withLanguage
+ */
+final class SdkGenerate extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStageId
+ * @method self withStageId
+ */
+final class DescribeApiStage extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStageId
+ * @method self withStageId
+ * @method string getVariableName
+ * @method self withVariableName
+ */
+final class DeleteApiStageVariable extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStageId
+ * @method self withStageId
+ * @method string getVariableName
+ * @method self withVariableName
+ * @method Boolean getSupportRoute
+ * @method self withSupportRoute
+ * @method string getVariableValue
+ * @method self withVariableValue
+ * @method string getStageRouteModel
+ * @method self withStageRouteModel
+ */
+final class CreateApiStageVariable extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getDescription
+ * @method self withDescription
+ * @method string getHistoryVersion
+ * @method self withHistoryVersion
+ */
+final class SwitchApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlId
+ * @method self withTrafficControlId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class SetTrafficControlApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSignatureId
+ * @method self withSignatureId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class SetSignatureApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getDomainName
+ * @method self withDomainName
+ * @method string getCertificateName
+ * @method self withCertificateName
+ * @method string getCertificateBody
+ * @method self withCertificateBody
+ * @method string getCertificatePrivateKey
+ * @method self withCertificatePrivateKey
+ */
+final class SetDomainCertificate extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getDomainName
+ * @method self withDomainName
+ * @method string getCertificateName
+ * @method self withCertificateName
+ * @method string getCertificateBody
+ * @method self withCertificateBody
+ * @method string getCertificatePrivateKey
+ * @method self withCertificatePrivateKey
+ */
+final class SetDomain extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getAppIds
+ * @method self withAppIds
+ * @method string getDescription
+ * @method self withDescription
+ * @method string getAuthVaildTime
+ * @method self withAuthVaildTime
+ * @method string getAuthValidTime
+ * @method self withAuthValidTime
+ */
+final class SetAppsAuthorities extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method Long getAppId
+ * @method self withAppId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getDescription
+ * @method self withDescription
+ * @method string getAuthVaildTime
+ * @method self withAuthVaildTime
+ * @method string getAuthValidTime
+ * @method self withAuthValidTime
+ */
+final class SetApisAuthorities extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getAppKey
+ * @method self withAppKey
+ */
+final class ResetAppSecret extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlId
+ * @method self withTrafficControlId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class RemoveTrafficControlApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSignatureId
+ * @method self withSignatureId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class RemoveSignatureApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getAppIds
+ * @method self withAppIds
+ */
+final class RemoveAppsAuthorities extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method Long getAppId
+ * @method self withAppId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class RemoveApisAuthorities extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlId
+ * @method self withTrafficControlId
+ * @method string getTrafficControlName
+ * @method self withTrafficControlName
+ * @method string getTrafficControlUnit
+ * @method self withTrafficControlUnit
+ * @method Integer getApiDefault
+ * @method self withApiDefault
+ * @method Integer getUserDefault
+ * @method self withUserDefault
+ * @method Integer getAppDefault
+ * @method self withAppDefault
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class ModifyTrafficControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSignatureId
+ * @method self withSignatureId
+ * @method string getSignatureName
+ * @method self withSignatureName
+ * @method string getSignatureKey
+ * @method self withSignatureKey
+ * @method string getSignatureSecret
+ * @method self withSignatureSecret
+ */
+final class ModifySignature extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Long getAppId
+ * @method self withAppId
+ * @method string getAppName
+ * @method self withAppName
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class ModifyApp extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getGroupName
+ * @method self withGroupName
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class ModifyApiGroup extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getApiName
+ * @method self withApiName
+ * @method string getDescription
+ * @method self withDescription
+ * @method string getVisibility
+ * @method self withVisibility
+ * @method string getAuthType
+ * @method self withAuthType
+ * @method string getRequestConfig
+ * @method self withRequestConfig
+ * @method string getServiceConfig
+ * @method self withServiceConfig
+ * @method string getRequestParameters
+ * @method self withRequestParameters
+ * @method string getSystemParameters
+ * @method self withSystemParameters
+ * @method string getConstantParameters
+ * @method self withConstantParameters
+ * @method string getServiceParameters
+ * @method self withServiceParameters
+ * @method string getServiceParametersMap
+ * @method self withServiceParametersMap
+ * @method string getResultType
+ * @method self withResultType
+ * @method string getResultSample
+ * @method self withResultSample
+ * @method string getFailResultSample
+ * @method self withFailResultSample
+ * @method string getErrorCodeSamples
+ * @method self withErrorCodeSamples
+ * @method string getResultDescriptions
+ * @method self withResultDescriptions
+ * @method string getOpenIdConnectConfig
+ * @method self withOpenIdConnectConfig
+ * @method string getAllowSignatureMethod
+ * @method self withAllowSignatureMethod
+ * @method string getWebSocketApiType
+ * @method self withWebSocketApiType
+ * @method string getResultBodyModel
+ * @method self withResultBodyModel
+ * @method Boolean getForceNonceCheck
+ * @method self withForceNonceCheck
+ * @method Boolean getDisableInternet
+ * @method self withDisableInternet
+ */
+final class ModifyApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class DescribeTrafficControlsByApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlId
+ * @method self withTrafficControlId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getTrafficControlName
+ * @method self withTrafficControlName
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeTrafficControls extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ */
+final class DescribeSystemParameters extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class DescribeSignaturesByApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSignatureId
+ * @method self withSignatureId
+ * @method string getSignatureName
+ * @method self withSignatureName
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeSignatures extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getLanguage
+ * @method self withLanguage
+ */
+final class DescribeRegions extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getApiName
+ * @method self withApiName
+ * @method string getVisibility
+ * @method self withVisibility
+ * @method Integer getPageSize
+ * @method self withPageSize
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ */
+final class DescribePurchasedApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribePurchasedApiGroups extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ */
+final class DescribePurchasedApiGroup extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getApiName
+ * @method self withApiName
+ * @method string getPageSize
+ * @method self withPageSize
+ * @method string getPageNumber
+ * @method self withPageNumber
+ */
+final class DescribeHistoryApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getDomainNames
+ * @method self withDomainNames
+ */
+final class DescribeDomainsResolution extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getDomainName
+ * @method self withDomainName
+ */
+final class DescribeDomain extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getApiName
+ * @method self withApiName
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeDeployedApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class DescribeDeployedApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiId
+ * @method self withApiId
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeAuthorizedApps extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Long getAppId
+ * @method self withAppId
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeAuthorizedApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Long getAppId
+ * @method self withAppId
+ */
+final class DescribeAppSecurity extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Long getAppId
+ * @method self withAppId
+ * @method Long getAppOwner
+ * @method self withAppOwner
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeApps extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Long getAppId
+ * @method self withAppId
+ * @method string getAppName
+ * @method self withAppName
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeAppAttributes extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStartTime
+ * @method self withStartTime
+ * @method string getEndTime
+ * @method self withEndTime
+ */
+final class DescribeApiTrafficData extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeApiTrafficControls extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiIds
+ * @method self withApiIds
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeApiSignatures extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlId
+ * @method self withTrafficControlId
+ * @method Integer getPageSize
+ * @method self withPageSize
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ */
+final class DescribeApisByTrafficControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSignatureId
+ * @method self withSignatureId
+ * @method Integer getPageSize
+ * @method self withPageSize
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ */
+final class DescribeApisBySignature extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getApiName
+ * @method self withApiName
+ * @method string getCatalogId
+ * @method self withCatalogId
+ * @method string getVisibility
+ * @method self withVisibility
+ * @method Integer getPageSize
+ * @method self withPageSize
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ */
+final class DescribeApis extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStartTime
+ * @method self withStartTime
+ * @method string getEndTime
+ * @method self withEndTime
+ */
+final class DescribeApiQpsData extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStartTime
+ * @method self withStartTime
+ * @method string getEndTime
+ * @method self withEndTime
+ */
+final class DescribeApiLatencyData extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getHistoryVersion
+ * @method self withHistoryVersion
+ */
+final class DescribeApiHistory extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getGroupName
+ * @method self withGroupName
+ * @method Integer getPageNumber
+ * @method self withPageNumber
+ * @method Integer getPageSize
+ * @method self withPageSize
+ */
+final class DescribeApiGroups extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ */
+final class DescribeApiGroup extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStartTime
+ * @method self withStartTime
+ * @method string getEndTime
+ * @method self withEndTime
+ */
+final class DescribeApiErrorData extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getApiId
+ * @method self withApiId
+ */
+final class DescribeApiDoc extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ */
+final class DescribeApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class DeployApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlId
+ * @method self withTrafficControlId
+ * @method string getSpecialType
+ * @method self withSpecialType
+ * @method string getSpecialKey
+ * @method self withSpecialKey
+ */
+final class DeleteTrafficSpecialControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlId
+ * @method self withTrafficControlId
+ */
+final class DeleteTrafficControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSignatureId
+ * @method self withSignatureId
+ */
+final class DeleteSignature extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getDomainName
+ * @method self withDomainName
+ * @method string getCertificateId
+ * @method self withCertificateId
+ */
+final class DeleteDomainCertificate extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getDomainName
+ * @method self withDomainName
+ */
+final class DeleteDomain extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method Long getAppId
+ * @method self withAppId
+ */
+final class DeleteApp extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ */
+final class DeleteApiGroup extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ */
+final class DeleteApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlId
+ * @method self withTrafficControlId
+ */
+final class DeleteAllTrafficSpecialControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlName
+ * @method self withTrafficControlName
+ * @method string getTrafficControlUnit
+ * @method self withTrafficControlUnit
+ * @method Integer getApiDefault
+ * @method self withApiDefault
+ * @method Integer getUserDefault
+ * @method self withUserDefault
+ * @method Integer getAppDefault
+ * @method self withAppDefault
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class CreateTrafficControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getSignatureName
+ * @method self withSignatureName
+ * @method string getSignatureKey
+ * @method self withSignatureKey
+ * @method string getSignatureSecret
+ * @method self withSignatureSecret
+ */
+final class CreateSignature extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getAppName
+ * @method self withAppName
+ * @method string getDescription
+ * @method self withDescription
+ */
+final class CreateApp extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupName
+ * @method self withGroupName
+ * @method string getDescription
+ * @method self withDescription
+ * @method string getSource
+ * @method self withSource
+ */
+final class CreateApiGroup extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiName
+ * @method self withApiName
+ * @method string getVisibility
+ * @method self withVisibility
+ * @method string getDescription
+ * @method self withDescription
+ * @method string getAuthType
+ * @method self withAuthType
+ * @method string getRequestConfig
+ * @method self withRequestConfig
+ * @method string getServiceConfig
+ * @method self withServiceConfig
+ * @method string getRequestParameters
+ * @method self withRequestParameters
+ * @method string getSystemParameters
+ * @method self withSystemParameters
+ * @method string getConstantParameters
+ * @method self withConstantParameters
+ * @method string getServiceParameters
+ * @method self withServiceParameters
+ * @method string getServiceParametersMap
+ * @method self withServiceParametersMap
+ * @method string getResultType
+ * @method self withResultType
+ * @method string getResultSample
+ * @method self withResultSample
+ * @method string getFailResultSample
+ * @method self withFailResultSample
+ * @method string getErrorCodeSamples
+ * @method self withErrorCodeSamples
+ * @method string getResultDescriptions
+ * @method self withResultDescriptions
+ * @method string getOpenIdConnectConfig
+ * @method self withOpenIdConnectConfig
+ * @method string getAllowSignatureMethod
+ * @method self withAllowSignatureMethod
+ * @method string getWebSocketApiType
+ * @method self withWebSocketApiType
+ * @method string getResultBodyModel
+ * @method self withResultBodyModel
+ * @method Boolean getForceNonceCheck
+ * @method self withForceNonceCheck
+ * @method Boolean getDisableInternet
+ * @method self withDisableInternet
+ */
+final class CreateApi extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getTrafficControlId
+ * @method self withTrafficControlId
+ * @method string getSpecialType
+ * @method self withSpecialType
+ * @method string getSpecialKey
+ * @method self withSpecialKey
+ * @method Integer getTrafficValue
+ * @method self withTrafficValue
+ */
+final class AddTrafficSpecialControl extends RpcRequest
+{
+}
+
+/**
+ * @method string getSecurityToken
+ * @method self withSecurityToken
+ * @method string getGroupId
+ * @method self withGroupId
+ * @method string getApiId
+ * @method self withApiId
+ * @method string getStageName
+ * @method self withStageName
+ */
+final class AbolishApi extends RpcRequest
+{
+}

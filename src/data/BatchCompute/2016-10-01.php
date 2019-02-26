@@ -1,0 +1,2 @@
+<?php
+return [ 'product' => [ 'name' => 'BatchCompute', 'domain' => 'batchcompute.[RegionId].aliyuncs.com,batchcompute-vpc.[RegionId].aliyuncs.com,batchcompute-inner.[RegionId].aliyuncs.com,batchcompute-openapi-inner.[RegionId].aliyuncs.com,batchcompute-openapi-share.[RegionId].aliyuncs.com', 'type' => 'Outer', ], 'version' => [ 'product' => 'BatchCompute', 'name' => '2016-10-01', 'apiStyle' => 'RPC', ], 'api' => [],];
