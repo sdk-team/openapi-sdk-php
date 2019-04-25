@@ -8,16 +8,16 @@ use AlibabaCloud\Rpc;
 /**
  * Resolve Api based on the method name.
  *
- * @method TodayAllkbps todayAllkbps(array $options = [])
- * @method TodayAegisOnlineRate todayAegisOnlineRate(array $options = [])
- * @method CurrentDdosAttackNum currentDdosAttackNum(array $options = [])
- * @method AllMalwareNum allMalwareNum(array $options = [])
+ * @method WebAttackNum webAttackNum(array $options = [])
+ * @method TodayqpsByRegion todayqpsByRegion(array $options = [])
  * @method TodayMalwareNum todayMalwareNum(array $options = [])
  * @method TodayCrackIntercept todayCrackIntercept(array $options = [])
  * @method TodayBackdoor todayBackdoor(array $options = [])
  * @method TodayAllpps todayAllpps(array $options = [])
- * @method WebAttackNum webAttackNum(array $options = [])
- * @method TodayqpsByRegion todayqpsByRegion(array $options = [])
+ * @method TodayAllkbps todayAllkbps(array $options = [])
+ * @method TodayAegisOnlineRate todayAegisOnlineRate(array $options = [])
+ * @method CurrentDdosAttackNum currentDdosAttackNum(array $options = [])
+ * @method AllMalwareNum allMalwareNum(array $options = [])
  */
 class YundunApiResolver
 {
@@ -39,19 +39,11 @@ class V20150227Rpc extends Rpc
     public $serviceCode = 'yundun';
 }
 
-class TodayAllkbps extends V20150227Rpc
+class WebAttackNum extends V20150227Rpc
 {
 }
 
-class TodayAegisOnlineRate extends V20150227Rpc
-{
-}
-
-class CurrentDdosAttackNum extends V20150227Rpc
-{
-}
-
-class AllMalwareNum extends V20150227Rpc
+class TodayqpsByRegion extends V20150227Rpc
 {
 }
 
@@ -71,10 +63,18 @@ class TodayAllpps extends V20150227Rpc
 {
 }
 
-class WebAttackNum extends V20150227Rpc
+class TodayAllkbps extends V20150227Rpc
 {
 }
 
-class TodayqpsByRegion extends V20150227Rpc
+class TodayAegisOnlineRate extends V20150227Rpc
+{
+}
+
+class CurrentDdosAttackNum extends V20150227Rpc
+{
+}
+
+class AllMalwareNum extends V20150227Rpc
 {
 }

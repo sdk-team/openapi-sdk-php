@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.2 - 2019-4-25
+- Generated 2015-02-27 for `Yundun`
+
+
 ## 1.5.1 - 2019-04-19
 - Supported `Sas`, `Ivision`.
 - Added tests for `Sas`, `Ivision`.
