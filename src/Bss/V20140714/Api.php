@@ -14,10 +14,10 @@ use AlibabaCloud\Rpc;
  * @method VnoPayCallBackNotify vnoPayCallBackNotify(array $options = [])
  * @method VnoBatchRefundOrder vnoBatchRefundOrder(array $options = [])
  * @method SubscriptionCreateOrderApi subscriptionCreateOrderApi(array $options = [])
- * @method DescribeCashDetail describeCashDetail(array $options = [])
  * @method SetResourceBusinessStatus setResourceBusinessStatus(array $options = [])
  * @method DescribeCouponList describeCouponList(array $options = [])
  * @method DescribeCouponDetail describeCouponDetail(array $options = [])
+ * @method DescribeCashDetail describeCashDetail(array $options = [])
  */
 class BssApiResolver
 {
@@ -34,6 +34,9 @@ class V20140714Rpc extends Rpc
 
     /** @var string */
     public $method = 'POST';
+
+    /** @var string */
+    public $serviceCode = 'bss';
 }
 
 /**
@@ -170,13 +173,6 @@ class SubscriptionCreateOrderApi extends V20140714Rpc
     }
 }
 
-class DescribeCashDetail extends V20140714Rpc
-{
-
-    /** @var string */
-    public $scheme = 'https';
-}
-
 /**
  * @method string getBusinessStatus()
  * @method $this withBusinessStatus($value)
@@ -228,4 +224,11 @@ class DescribeCouponDetail extends V20140714Rpc
 
     /** @var string */
     public $method = 'GET';
+}
+
+class DescribeCashDetail extends V20140714Rpc
+{
+
+    /** @var string */
+    public $scheme = 'https';
 }
