@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.6 - 2019-5-6
+- Generated 2015-02-27 for `Yundun`
+
+
 ## 1.5.5 - 2019-5-6
 - Generated 2015-02-27, 2015-04-16 for `Yundun`
 
