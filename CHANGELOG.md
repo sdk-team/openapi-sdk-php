@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.4 - 2019-5-6
+- Generated 2015-02-27 for `Yundun`
+
+
 ## 1.5.3 - 2019-4-26
 - Generated 2014-07-14 for `Bss`
 
