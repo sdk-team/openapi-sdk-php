@@ -14,6 +14,7 @@ use AlibabaCloud\Client\AlibabaCloud;
  * @method static ARMS\ARMS aRMS()
  * @method static ARMS4FINANCE\ARMS4FINANCE aRMS4FINANCE()
  * @method static Aas\Aas aas()
+ * @method static Acs\Acs acs()
  * @method static Actiontrail\Actiontrail actiontrail()
  * @method static Aegis\Aegis aegis()
  * @method static Afs\Afs afs()
