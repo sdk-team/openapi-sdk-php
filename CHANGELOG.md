@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.25 - 2019-5-9
+- Generated 2015-01-01 for `Acs`
+
+
 ## 1.5.24 - 2019-5-9
 - Generated 2014-07-14 for `Bss`
 
