@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.23 - 2019-5-9
+- Generated 2014-07-14 for `Bss`
+
+
 ## 1.5.22 - 2019-5-9
 - Generated 2014-07-14 for `Bss`
 
