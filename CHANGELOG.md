@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.36 - 2019-5-15
+- Generated 2015-01-01 for `Acs`
+
+
 ## 1.5.35 - 2019-5-14
 - Generated 2014-05-26 for `Ecs`
 
