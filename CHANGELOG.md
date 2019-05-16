@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.41 - 2019-5-16
+- Generated 2014-05-26 for `Ecs`
+
+
 ## 1.5.40 - 2019-5-16
 - Generated 2014-07-14 for `Bss`
 
