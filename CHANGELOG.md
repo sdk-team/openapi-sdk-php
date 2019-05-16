@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.48 - 2019-5-16
+- Generated 2015-07-01 for `Aas`
+
+
 ## 1.5.47 - 2019-5-16
 - Generated 2015-07-01 for `Aas`
 
