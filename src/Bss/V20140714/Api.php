@@ -8,16 +8,16 @@ use AlibabaCloud\Rpc;
 /**
  * Resolve Api based on the method name.
  *
- * @method DescribeCashDetail describeCashDetail(array $options = [])
- * @method VnoBatchRefundOrder vnoBatchRefundOrder(array $options = [])
  * @method SubscriptionCreateOrderApi subscriptionCreateOrderApi(array $options = [])
+ * @method SetResourceBusinessStatus setResourceBusinessStatus(array $options = [])
+ * @method VnoBatchRefundOrder vnoBatchRefundOrder(array $options = [])
+ * @method QueryForCssOrder queryForCssOrder(array $options = [])
  * @method CreateOrder createOrder(array $options = [])
  * @method DescribeCouponDetail describeCouponDetail(array $options = [])
- * @method SetResourceBusinessStatus setResourceBusinessStatus(array $options = [])
- * @method OpenCallback openCallback(array $options = [])
- * @method QueryForCssOrder queryForCssOrder(array $options = [])
- * @method DescribeCouponList describeCouponList(array $options = [])
  * @method VnoPayCallBackNotify vnoPayCallBackNotify(array $options = [])
+ * @method DescribeCashDetail describeCashDetail(array $options = [])
+ * @method DescribeCouponList describeCouponList(array $options = [])
+ * @method OpenCallback openCallback(array $options = [])
  */
 class BssApiResolver
 {
@@ -34,33 +34,6 @@ class V20140714Rpc extends Rpc
 
     /** @var string */
     public $method = 'POST';
-}
-
-class DescribeCashDetail extends V20140714Rpc
-{
-
-    /** @var string */
-    public $scheme = 'https';
-}
-
-/**
- * @method string getParamStr()
- */
-class VnoBatchRefundOrder extends V20140714Rpc
-{
-
-    /**
-     * @param string $value
-     *
-     * @return $this
-     */
-    public function withParamStr($value)
-    {
-        $this->data['ParamStr'] = $value;
-        $this->options['query']['paramStr'] = $value;
-
-        return $this;
-    }
 }
 
 /**
@@ -92,6 +65,66 @@ class SubscriptionCreateOrderApi extends V20140714Rpc
     {
         $this->data['OwnerId'] = $value;
         $this->options['query']['ownerId'] = $value;
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getBusinessStatus()
+ * @method $this withBusinessStatus($value)
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceId()
+ * @method $this withResourceId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getResourceType()
+ * @method $this withResourceType($value)
+ */
+class SetResourceBusinessStatus extends V20140714Rpc
+{
+}
+
+/**
+ * @method string getParamStr()
+ */
+class VnoBatchRefundOrder extends V20140714Rpc
+{
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withParamStr($value)
+    {
+        $this->data['ParamStr'] = $value;
+        $this->options['query']['paramStr'] = $value;
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getParamStr()
+ */
+class QueryForCssOrder extends V20140714Rpc
+{
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withParamStr($value)
+    {
+        $this->data['ParamStr'] = $value;
+        $this->options['query']['paramStr'] = $value;
 
         return $this;
     }
@@ -132,29 +165,9 @@ class DescribeCouponDetail extends V20140714Rpc
 }
 
 /**
- * @method string getBusinessStatus()
- * @method $this withBusinessStatus($value)
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceId()
- * @method $this withResourceId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getResourceType()
- * @method $this withResourceType($value)
- */
-class SetResourceBusinessStatus extends V20140714Rpc
-{
-}
-
-/**
  * @method string getParamStr()
  */
-class OpenCallback extends V20140714Rpc
+class VnoPayCallBackNotify extends V20140714Rpc
 {
 
     /**
@@ -171,24 +184,11 @@ class OpenCallback extends V20140714Rpc
     }
 }
 
-/**
- * @method string getParamStr()
- */
-class QueryForCssOrder extends V20140714Rpc
+class DescribeCashDetail extends V20140714Rpc
 {
 
-    /**
-     * @param string $value
-     *
-     * @return $this
-     */
-    public function withParamStr($value)
-    {
-        $this->data['ParamStr'] = $value;
-        $this->options['query']['paramStr'] = $value;
-
-        return $this;
-    }
+    /** @var string */
+    public $scheme = 'https';
 }
 
 /**
@@ -213,7 +213,7 @@ class DescribeCouponList extends V20140714Rpc
 /**
  * @method string getParamStr()
  */
-class VnoPayCallBackNotify extends V20140714Rpc
+class OpenCallback extends V20140714Rpc
 {
 
     /**
