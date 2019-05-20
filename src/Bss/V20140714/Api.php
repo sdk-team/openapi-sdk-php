@@ -9,15 +9,15 @@ use AlibabaCloud\Rpc;
  * Resolve Api based on the method name.
  *
  * @method DescribeCashDetail describeCashDetail(array $options = [])
- * @method DescribeCouponList describeCouponList(array $options = [])
- * @method VnoPayCallBackNotify vnoPayCallBackNotify(array $options = [])
  * @method QueryForCssOrder queryForCssOrder(array $options = [])
  * @method CreateOrder createOrder(array $options = [])
- * @method SubscriptionCreateOrderApi subscriptionCreateOrderApi(array $options = [])
  * @method VnoBatchRefundOrder vnoBatchRefundOrder(array $options = [])
- * @method SetResourceBusinessStatus setResourceBusinessStatus(array $options = [])
- * @method OpenCallback openCallback(array $options = [])
+ * @method SubscriptionCreateOrderApi subscriptionCreateOrderApi(array $options = [])
  * @method DescribeCouponDetail describeCouponDetail(array $options = [])
+ * @method SetResourceBusinessStatus setResourceBusinessStatus(array $options = [])
+ * @method DescribeCouponList describeCouponList(array $options = [])
+ * @method OpenCallback openCallback(array $options = [])
+ * @method VnoPayCallBackNotify vnoPayCallBackNotify(array $options = [])
  */
 class BssApiResolver
 {
@@ -44,45 +44,6 @@ class DescribeCashDetail extends V20140714Rpc
 }
 
 /**
- * @method string getStartDeliveryTime()
- * @method $this withStartDeliveryTime($value)
- * @method string getPageSize()
- * @method $this withPageSize($value)
- * @method string getEndDeliveryTime()
- * @method $this withEndDeliveryTime($value)
- * @method string getPageNum()
- * @method $this withPageNum($value)
- * @method string getStatus()
- * @method $this withStatus($value)
- */
-class DescribeCouponList extends V20140714Rpc
-{
-
-    /** @var string */
-    public $scheme = 'https';
-}
-
-/**
- * @method string getParamStr()
- */
-class VnoPayCallBackNotify extends V20140714Rpc
-{
-
-    /**
-     * @param string $value
-     *
-     * @return $this
-     */
-    public function withParamStr($value)
-    {
-        $this->data['ParamStr'] = $value;
-        $this->options['query']['paramStr'] = $value;
-
-        return $this;
-    }
-}
-
-/**
  * @method string getParamStr()
  */
 class QueryForCssOrder extends V20140714Rpc
@@ -106,6 +67,26 @@ class QueryForCssOrder extends V20140714Rpc
  * @method string getParamStr()
  */
 class CreateOrder extends V20140714Rpc
+{
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withParamStr($value)
+    {
+        $this->data['ParamStr'] = $value;
+        $this->options['query']['paramStr'] = $value;
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getParamStr()
+ */
+class VnoBatchRefundOrder extends V20140714Rpc
 {
 
     /**
@@ -157,23 +138,17 @@ class SubscriptionCreateOrderApi extends V20140714Rpc
 }
 
 /**
- * @method string getParamStr()
+ * @method string getCouponNumber()
+ * @method $this withCouponNumber($value)
  */
-class VnoBatchRefundOrder extends V20140714Rpc
+class DescribeCouponDetail extends V20140714Rpc
 {
 
-    /**
-     * @param string $value
-     *
-     * @return $this
-     */
-    public function withParamStr($value)
-    {
-        $this->data['ParamStr'] = $value;
-        $this->options['query']['paramStr'] = $value;
+    /** @var string */
+    public $scheme = 'https';
 
-        return $this;
-    }
+    /** @var string */
+    public $method = 'GET';
 }
 
 /**
@@ -197,6 +172,25 @@ class SetResourceBusinessStatus extends V20140714Rpc
 }
 
 /**
+ * @method string getStartDeliveryTime()
+ * @method $this withStartDeliveryTime($value)
+ * @method string getPageSize()
+ * @method $this withPageSize($value)
+ * @method string getEndDeliveryTime()
+ * @method $this withEndDeliveryTime($value)
+ * @method string getPageNum()
+ * @method $this withPageNum($value)
+ * @method string getStatus()
+ * @method $this withStatus($value)
+ */
+class DescribeCouponList extends V20140714Rpc
+{
+
+    /** @var string */
+    public $scheme = 'https';
+}
+
+/**
  * @method string getParamStr()
  */
 class OpenCallback extends V20140714Rpc
@@ -217,15 +211,21 @@ class OpenCallback extends V20140714Rpc
 }
 
 /**
- * @method string getCouponNumber()
- * @method $this withCouponNumber($value)
+ * @method string getParamStr()
  */
-class DescribeCouponDetail extends V20140714Rpc
+class VnoPayCallBackNotify extends V20140714Rpc
 {
 
-    /** @var string */
-    public $scheme = 'https';
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withParamStr($value)
+    {
+        $this->data['ParamStr'] = $value;
+        $this->options['query']['paramStr'] = $value;
 
-    /** @var string */
-    public $method = 'GET';
+        return $this;
+    }
 }
