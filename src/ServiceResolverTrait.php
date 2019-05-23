@@ -11,6 +11,7 @@ use AlibabaCloud\Client\AlibabaCloud;
  *
  * @codeCoverageIgnore
  *
+ * @method static AMS\AMS aMS()
  * @method static ARMS\ARMS aRMS()
  * @method static ARMS4FINANCE\ARMS4FINANCE aRMS4FINANCE()
  * @method static Aas\Aas aas()
