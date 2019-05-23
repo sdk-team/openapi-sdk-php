@@ -8,57 +8,57 @@ use AlibabaCloud\Rpc;
 /**
  * Resolve Api based on the method name.
  *
- * @method ModifyInstanceDeployment modifyInstanceDeployment(array $options = [])
- * @method ModifyDedicatedHostAttribute modifyDedicatedHostAttribute(array $options = [])
- * @method DeleteEniQosGroup deleteEniQosGroup(array $options = [])
- * @method ModifyInstanceCapacityReservationAttributes modifyInstanceCapacityReservationAttributes(array $options = [])
- * @method DescribeAccountLimits describeAccountLimits(array $options = [])
- * @method DescribeDedicatedHostTypes describeDedicatedHostTypes(array $options = [])
+ * @method ReleaseDedicatedHost releaseDedicatedHost(array $options = [])
+ * @method DescribeLinkedKMSKeys describeLinkedKMSKeys(array $options = [])
+ * @method ModifyEniQosGroup modifyEniQosGroup(array $options = [])
  * @method CreateEniQosGroup createEniQosGroup(array $options = [])
+ * @method DescribeDedicatedHostAutoRenew describeDedicatedHostAutoRenew(array $options = [])
  * @method DescribeAccountAttributes describeAccountAttributes(array $options = [])
- * @method SetInstanceAutoReleaseTime setInstanceAutoReleaseTime(array $options = [])
+ * @method QueryEniQosGroupByEni queryEniQosGroupByEni(array $options = [])
  * @method DescribeResourceRecommendFilters describeResourceRecommendFilters(array $options = [])
- * @method ModifyInstanceAutoRebootTime modifyInstanceAutoRebootTime(array $options = [])
- * @method CreateCapacityReservation createCapacityReservation(array $options = [])
- * @method DescribeEniQosGroupInfo describeEniQosGroupInfo(array $options = [])
  * @method GetLaunchTemplateData getLaunchTemplateData(array $options = [])
+ * @method DescribeEniQosGroupInfo describeEniQosGroupInfo(array $options = [])
+ * @method DescribeKMSKeyAttribute describeKMSKeyAttribute(array $options = [])
  * @method DescribeConfigLogHistory describeConfigLogHistory(array $options = [])
  * @method DeleteConfigLogSubscriptions deleteConfigLogSubscriptions(array $options = [])
- * @method CreateVolumes createVolumes(array $options = [])
- * @method ModifyCapacityReservation modifyCapacityReservation(array $options = [])
- * @method DescribeResources describeResources(array $options = [])
- * @method CreateConfigLogSubscriptions createConfigLogSubscriptions(array $options = [])
- * @method RenewDedicatedHosts renewDedicatedHosts(array $options = [])
- * @method DescribeKMSKeys describeKMSKeys(array $options = [])
- * @method DescribeDedicatedHostAutoRenew describeDedicatedHostAutoRenew(array $options = [])
- * @method DescribeKMSKeyAttribute describeKMSKeyAttribute(array $options = [])
- * @method ModifyDedicatedHostAutoReleaseTime modifyDedicatedHostAutoReleaseTime(array $options = [])
- * @method ModifyReservedInstanceAttribute modifyReservedInstanceAttribute(array $options = [])
- * @method DescribeCapacityReservations describeCapacityReservations(array $options = [])
- * @method DescribeConfigLogSubscription describeConfigLogSubscription(array $options = [])
- * @method ModifyDedicatedHostAutoRenewAttribute modifyDedicatedHostAutoRenewAttribute(array $options = [])
- * @method AllocateDedicatedHosts allocateDedicatedHosts(array $options = [])
  * @method LeaveEniQosGroup leaveEniQosGroup(array $options = [])
- * @method DescribeInstanceNeedReboot describeInstanceNeedReboot(array $options = [])
- * @method CreateDisks createDisks(array $options = [])
- * @method ModifyEniQosGroup modifyEniQosGroup(array $options = [])
- * @method DescribeReservedInstancePrice describeReservedInstancePrice(array $options = [])
- * @method DescribeReservedInstances describeReservedInstances(array $options = [])
- * @method QueryEniQosGroupByEni queryEniQosGroupByEni(array $options = [])
- * @method ReleaseDedicatedHost releaseDedicatedHost(array $options = [])
- * @method QueryEniQosGroupByInstance queryEniQosGroupByInstance(array $options = [])
+ * @method ModifyInstanceAutoRebootTime modifyInstanceAutoRebootTime(array $options = [])
  * @method DescribeResourceFilterAttributes describeResourceFilterAttributes(array $options = [])
- * @method DescribeDedicatedHosts describeDedicatedHosts(array $options = [])
- * @method JoinEniQosGroup joinEniQosGroup(array $options = [])
- * @method DescribeBandwidthPrice describeBandwidthPrice(array $options = [])
- * @method DescribeInstanceAutoRebootTime describeInstanceAutoRebootTime(array $options = [])
- * @method RunInstances runInstances(array $options = [])
- * @method ReleaseCapacityReservation releaseCapacityReservation(array $options = [])
- * @method DescribeLinkedKMSKeys describeLinkedKMSKeys(array $options = [])
- * @method PurchaseReservedInstancesOffering purchaseReservedInstancesOffering(array $options = [])
+ * @method CreateConfigLogSubscriptions createConfigLogSubscriptions(array $options = [])
+ * @method DescribeCapacityReservations describeCapacityReservations(array $options = [])
+ * @method CreateCapacityReservation createCapacityReservation(array $options = [])
+ * @method ModifyDedicatedHostAutoReleaseTime modifyDedicatedHostAutoReleaseTime(array $options = [])
+ * @method DescribeKMSKeys describeKMSKeys(array $options = [])
+ * @method AllocateDedicatedHosts allocateDedicatedHosts(array $options = [])
+ * @method ModifyReservedInstanceAttribute modifyReservedInstanceAttribute(array $options = [])
+ * @method DescribeReservedInstancePrice describeReservedInstancePrice(array $options = [])
  * @method ModifyReservedInstances modifyReservedInstances(array $options = [])
+ * @method RenewDedicatedHosts renewDedicatedHosts(array $options = [])
+ * @method DescribeDedicatedHostTypes describeDedicatedHostTypes(array $options = [])
+ * @method CreateDisks createDisks(array $options = [])
+ * @method ModifyInstanceDeployment modifyInstanceDeployment(array $options = [])
+ * @method QueryEniQosGroupByInstance queryEniQosGroupByInstance(array $options = [])
  * @method DescribePrice describePrice(array $options = [])
+ * @method DescribeDedicatedHosts describeDedicatedHosts(array $options = [])
+ * @method DescribeConfigLogSubscription describeConfigLogSubscription(array $options = [])
+ * @method DescribeAccountLimits describeAccountLimits(array $options = [])
+ * @method DescribeInstanceAutoRebootTime describeInstanceAutoRebootTime(array $options = [])
+ * @method DescribeResources describeResources(array $options = [])
+ * @method SetInstanceAutoReleaseTime setInstanceAutoReleaseTime(array $options = [])
+ * @method ModifyDedicatedHostAutoRenewAttribute modifyDedicatedHostAutoRenewAttribute(array $options = [])
+ * @method DeleteEniQosGroup deleteEniQosGroup(array $options = [])
+ * @method CreateVolumes createVolumes(array $options = [])
+ * @method JoinEniQosGroup joinEniQosGroup(array $options = [])
+ * @method ModifyInstanceCapacityReservationAttributes modifyInstanceCapacityReservationAttributes(array $options = [])
+ * @method RunInstances runInstances(array $options = [])
+ * @method ModifyCapacityReservation modifyCapacityReservation(array $options = [])
+ * @method DescribeReservedInstances describeReservedInstances(array $options = [])
+ * @method PurchaseReservedInstancesOffering purchaseReservedInstancesOffering(array $options = [])
  * @method CreateOrder createOrder(array $options = [])
+ * @method DescribeInstanceNeedReboot describeInstanceNeedReboot(array $options = [])
+ * @method ReleaseCapacityReservation releaseCapacityReservation(array $options = [])
+ * @method DescribeBandwidthPrice describeBandwidthPrice(array $options = [])
+ * @method ModifyDedicatedHostAttribute modifyDedicatedHostAttribute(array $options = [])
  */
 class EcsApiResolver
 {
@@ -84,635 +84,16 @@ class V20160314Rpc extends Rpc
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
  * @method $this withOwnerAccount($value)
- * @method string getTenancy()
- * @method $this withTenancy($value)
  * @method string getDedicatedHostId()
  * @method $this withDedicatedHostId($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getInstanceId()
- * @method $this withInstanceId($value)
- * @method string getAffinity()
- * @method $this withAffinity($value)
- */
-class ModifyInstanceDeployment extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getDescription()
- * @method $this withDescription($value)
- * @method string getActionOnMaintenance()
- * @method $this withActionOnMaintenance($value)
- * @method string getDedicatedHostName()
- * @method $this withDedicatedHostName($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getDedicatedHostId()
- * @method $this withDedicatedHostId($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getNetworkAttributesSlbUdpTimeout()
- * @method string getAutoPlacement()
- * @method $this withAutoPlacement($value)
- * @method string getNetworkAttributesUdpTimeout()
- */
-class ModifyDedicatedHostAttribute extends V20160314Rpc
-{
-
-    /**
-     * @param string $value
-     *
-     * @return $this
-     */
-    public function withNetworkAttributesSlbUdpTimeout($value)
-    {
-        $this->data['NetworkAttributesSlbUdpTimeout'] = $value;
-        $this->options['query']['NetworkAttributes.SlbUdpTimeout'] = $value;
-
-        return $this;
-    }
-
-    /**
-     * @param string $value
-     *
-     * @return $this
-     */
-    public function withNetworkAttributesUdpTimeout($value)
-    {
-        $this->data['NetworkAttributesUdpTimeout'] = $value;
-        $this->options['query']['NetworkAttributes.UdpTimeout'] = $value;
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getQosGroupName()
- * @method $this withQosGroupName($value)
- */
-class DeleteEniQosGroup extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getCapacityReservationId()
- * @method $this withCapacityReservationId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getCapacityReservationPreference()
- * @method $this withCapacityReservationPreference($value)
- * @method string getInstanceId()
- * @method $this withInstanceId($value)
- */
-class ModifyInstanceCapacityReservationAttributes extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method array getFilter()
- */
-class DescribeAccountLimits extends V20160314Rpc
-{
-
-    /**
-     * @param array $filter
-     *
-     * @return $this
-     */
-    public function withFilter(array $filter)
-    {
-        $this->data['Filter'] = $filter;
-        foreach ($filter as $depth1 => $depth1Value) {
-            foreach ($depth1Value['Value'] as $i => $iValue) {
-                $this->options['query']['Filter.' . ($depth1 + 1) . '.Value.' . ($i + 1)] = $iValue;
-            }
-            $this->options['query']['Filter.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getSupportInstanceTypeFamily()
- * @method $this withSupportInstanceTypeFamily($value)
- * @method string getDedicatedHostType()
- * @method $this withDedicatedHostType($value)
- * @method string getGeneration()
- * @method $this withGeneration($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- */
-class DescribeDedicatedHostTypes extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getTx()
- * @method $this withTx($value)
- * @method string getRx()
- * @method $this withRx($value)
- * @method string getRxPps()
- * @method $this withRxPps($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getQosGroupName()
- * @method $this withQosGroupName($value)
- * @method string getInstanceId()
- * @method $this withInstanceId($value)
- * @method string getTxPps()
- * @method $this withTxPps($value)
- */
-class CreateEniQosGroup extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method array getAttributeName()
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getZoneId()
- * @method $this withZoneId($value)
- */
-class DescribeAccountAttributes extends V20160314Rpc
-{
-
-    /**
-     * @param array $attributeName
-     *
-     * @return $this
-     */
-    public function withAttributeName(array $attributeName)
-    {
-        $this->data['AttributeName'] = $attributeName;
-        foreach ($attributeName as $i => $iValue) {
-            $this->options['query']['AttributeName.' . ($i + 1)] = $iValue;
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getAutoReleaseTime()
- * @method $this withAutoReleaseTime($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getInstanceId()
- * @method $this withInstanceId($value)
- */
-class SetInstanceAutoReleaseTime extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getAttributeValue()
- * @method $this withAttributeValue($value)
- * @method string getGlobal()
- * @method $this withGlobal($value)
- * @method string getAttributeName()
- * @method $this withAttributeName($value)
- * @method array getTemplateTag()
- * @method string getProduct()
- * @method $this withProduct($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getResourceType()
- * @method $this withResourceType($value)
- * @method string getRegionNo()
- * @method $this withRegionNo($value)
- * @method string getMaxItems()
- * @method $this withMaxItems($value)
- */
-class DescribeResourceRecommendFilters extends V20160314Rpc
-{
-
-    /**
-     * @param array $templateTag
-     *
-     * @return $this
-     */
-    public function withTemplateTag(array $templateTag)
-    {
-        $this->data['TemplateTag'] = $templateTag;
-        foreach ($templateTag as $depth1 => $depth1Value) {
-            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
-            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getAutoRebootTime()
- * @method $this withAutoRebootTime($value)
- * @method array getInstanceIds()
- */
-class ModifyInstanceAutoRebootTime extends V20160314Rpc
-{
-
-    /**
-     * @param array $instanceIds
-     *
-     * @return $this
-     */
-    public function withInstanceIds(array $instanceIds)
-    {
-        $this->data['InstanceIds'] = $instanceIds;
-        foreach ($instanceIds as $i => $iValue) {
-            $this->options['query']['InstanceIds.' . ($i + 1)] = $iValue;
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getDescription()
- * @method $this withDescription($value)
- * @method string getNetworkType()
- * @method $this withNetworkType($value)
- * @method string getResourceGroupId()
- * @method $this withResourceGroupId($value)
- * @method string getInstanceCount()
- * @method $this withInstanceCount($value)
- * @method string getInstanceType()
- * @method $this withInstanceType($value)
- * @method array getTag()
- * @method string getInstancePlatform()
- * @method $this withInstancePlatform($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getEndDateType()
- * @method $this withEndDateType($value)
- * @method string getInstanceMatchCriteria()
- * @method $this withInstanceMatchCriteria($value)
- * @method string getTimeSlot()
- * @method $this withTimeSlot($value)
- * @method string getCapacityReservationName()
- * @method $this withCapacityReservationName($value)
- * @method string getZoneId()
- * @method $this withZoneId($value)
- */
-class CreateCapacityReservation extends V20160314Rpc
-{
-
-    /**
-     * @param array $tag
-     *
-     * @return $this
-     */
-    public function withTag(array $tag)
-    {
-        $this->data['Tag'] = $tag;
-        foreach ($tag as $depth1 => $depth1Value) {
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getQosGroupName()
- * @method $this withQosGroupName($value)
- */
-class DescribeEniQosGroupInfo extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getInstanceId()
- * @method $this withInstanceId($value)
- */
-class GetLaunchTemplateData extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getStartTime()
- * @method $this withStartTime($value)
- * @method string getPageNumber()
- * @method $this withPageNumber($value)
- * @method string getChronologicalOrder()
- * @method $this withChronologicalOrder($value)
- * @method string getPageSize()
- * @method $this withPageSize($value)
- * @method string getResourceId()
- * @method $this withResourceId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getEndTime()
- * @method $this withEndTime($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getResourceType()
- * @method $this withResourceType($value)
- */
-class DescribeConfigLogHistory extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method array getName()
- */
-class DeleteConfigLogSubscriptions extends V20160314Rpc
-{
-
-    /**
-     * @param array $name
-     *
-     * @return $this
-     */
-    public function withName(array $name)
-    {
-        $this->data['Name'] = $name;
-        foreach ($name as $i => $iValue) {
-            $this->options['query']['Name.' . ($i + 1)] = $iValue;
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getSnapshotId()
- * @method $this withSnapshotId($value)
- * @method string getClientToken()
- * @method $this withClientToken($value)
- * @method string getDescription()
- * @method $this withDescription($value)
- * @method string getVolumeCategory()
- * @method $this withVolumeCategory($value)
- * @method array getTag()
- * @method string getAmount()
- * @method $this withAmount($value)
- * @method string getVolumeName()
- * @method $this withVolumeName($value)
- * @method string getVolumeEncrypted()
- * @method $this withVolumeEncrypted($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getSize()
- * @method $this withSize($value)
- * @method string getZoneId()
- * @method $this withZoneId($value)
- * @method string getKMSKeyId()
- * @method $this withKMSKeyId($value)
- */
-class CreateVolumes extends V20160314Rpc
-{
-
-    /**
-     * @param array $tag
-     *
-     * @return $this
-     */
-    public function withTag(array $tag)
-    {
-        $this->data['Tag'] = $tag;
-        foreach ($tag as $depth1 => $depth1Value) {
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getCapacityReservationId()
- * @method $this withCapacityReservationId($value)
- * @method string getInstanceCount()
- * @method $this withInstanceCount($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
  * @method string getToken()
  * @method $this withToken($value)
+ * @method string getForce()
+ * @method $this withForce($value)
  */
-class ModifyCapacityReservation extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getGlobal()
- * @method $this withGlobal($value)
- * @method array getTemplateTag()
- * @method string getKeyword()
- * @method $this withKeyword($value)
- * @method string getProduct()
- * @method $this withProduct($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getResourceType()
- * @method $this withResourceType($value)
- * @method string getRegionNo()
- * @method $this withRegionNo($value)
- * @method array getFilter()
- * @method string getMarker()
- * @method $this withMarker($value)
- * @method string getMaxItems()
- * @method $this withMaxItems($value)
- */
-class DescribeResources extends V20160314Rpc
-{
-
-    /**
-     * @param array $templateTag
-     *
-     * @return $this
-     */
-    public function withTemplateTag(array $templateTag)
-    {
-        $this->data['TemplateTag'] = $templateTag;
-        foreach ($templateTag as $depth1 => $depth1Value) {
-            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
-            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
-        }
-
-        return $this;
-    }
-
-    /**
-     * @param array $filter
-     *
-     * @return $this
-     */
-    public function withFilter(array $filter)
-    {
-        $this->data['Filter'] = $filter;
-        foreach ($filter as $depth1 => $depth1Value) {
-            $this->options['query']['Filter.' . ($depth1 + 1) . '.AttributeName'] = $depth1Value['AttributeName'];
-            $this->options['query']['Filter.' . ($depth1 + 1) . '.Operation'] = $depth1Value['Operation'];
-            $this->options['query']['Filter.' . ($depth1 + 1) . '.AttributeValue'] = $depth1Value['AttributeValue'];
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method array getSubscription()
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- */
-class CreateConfigLogSubscriptions extends V20160314Rpc
-{
-
-    /**
-     * @param array $subscription
-     *
-     * @return $this
-     */
-    public function withSubscription(array $subscription)
-    {
-        $this->data['Subscription'] = $subscription;
-        foreach ($subscription as $depth1 => $depth1Value) {
-            $this->options['query']['Subscription.' . ($depth1 + 1) . '.Name'] = $depth1Value['Name'];
-            $this->options['query']['Subscription.' . ($depth1 + 1) . '.ResourceType'] = $depth1Value['ResourceType'];
-            $this->options['query']['Subscription.' . ($depth1 + 1) . '.MnsQueueArn'] = $depth1Value['MnsQueueArn'];
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getDedicatedHostIds()
- * @method $this withDedicatedHostIds($value)
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getClientToken()
- * @method $this withClientToken($value)
- * @method string getBusinessInfo()
- * @method $this withBusinessInfo($value)
- * @method string getPeriod()
- * @method $this withPeriod($value)
- * @method string getFromApp()
- * @method $this withFromApp($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getPeriodUnit()
- * @method $this withPeriodUnit($value)
- */
-class RenewDedicatedHosts extends V20160314Rpc
+class ReleaseDedicatedHost extends V20160314Rpc
 {
 }
 
@@ -721,10 +102,6 @@ class RenewDedicatedHosts extends V20160314Rpc
  * @method $this withResourceOwnerId($value)
  * @method string getChannel()
  * @method string getOperator()
- * @method string getPageNumber()
- * @method $this withPageNumber($value)
- * @method string getPageSize()
- * @method $this withPageSize($value)
  * @method string getProxyId()
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
@@ -735,7 +112,7 @@ class RenewDedicatedHosts extends V20160314Rpc
  * @method string getToken()
  * @method string getAppKey()
  */
-class DescribeKMSKeys extends V20160314Rpc
+class DescribeLinkedKMSKeys extends V20160314Rpc
 {
 
     /**
@@ -807,6 +184,52 @@ class DescribeKMSKeys extends V20160314Rpc
 /**
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
+ * @method string getTx()
+ * @method $this withTx($value)
+ * @method string getRx()
+ * @method $this withRx($value)
+ * @method string getRxPps()
+ * @method $this withRxPps($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getQosGroupName()
+ * @method $this withQosGroupName($value)
+ * @method string getTxPps()
+ * @method $this withTxPps($value)
+ */
+class ModifyEniQosGroup extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getTx()
+ * @method $this withTx($value)
+ * @method string getRx()
+ * @method $this withRx($value)
+ * @method string getRxPps()
+ * @method $this withRxPps($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getQosGroupName()
+ * @method $this withQosGroupName($value)
+ * @method string getInstanceId()
+ * @method $this withInstanceId($value)
+ * @method string getTxPps()
+ * @method $this withTxPps($value)
+ */
+class CreateEniQosGroup extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
@@ -819,6 +242,123 @@ class DescribeKMSKeys extends V20160314Rpc
  * @method $this withInstanceIds($value)
  */
 class DescribeDedicatedHostAutoRenew extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method array getAttributeName()
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getZoneId()
+ * @method $this withZoneId($value)
+ */
+class DescribeAccountAttributes extends V20160314Rpc
+{
+
+    /**
+     * @param array $attributeName
+     *
+     * @return $this
+     */
+    public function withAttributeName(array $attributeName)
+    {
+        $this->data['AttributeName'] = $attributeName;
+        foreach ($attributeName as $i => $iValue) {
+            $this->options['query']['AttributeName.' . ($i + 1)] = $iValue;
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getNetworkInterfaceId()
+ * @method $this withNetworkInterfaceId($value)
+ */
+class QueryEniQosGroupByEni extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getAttributeValue()
+ * @method $this withAttributeValue($value)
+ * @method string getGlobal()
+ * @method $this withGlobal($value)
+ * @method string getAttributeName()
+ * @method $this withAttributeName($value)
+ * @method array getTemplateTag()
+ * @method string getProduct()
+ * @method $this withProduct($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getResourceType()
+ * @method $this withResourceType($value)
+ * @method string getRegionNo()
+ * @method $this withRegionNo($value)
+ * @method string getMaxItems()
+ * @method $this withMaxItems($value)
+ */
+class DescribeResourceRecommendFilters extends V20160314Rpc
+{
+
+    /**
+     * @param array $templateTag
+     *
+     * @return $this
+     */
+    public function withTemplateTag(array $templateTag)
+    {
+        $this->data['TemplateTag'] = $templateTag;
+        foreach ($templateTag as $depth1 => $depth1Value) {
+            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
+            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getInstanceId()
+ * @method $this withInstanceId($value)
+ */
+class GetLaunchTemplateData extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getQosGroupName()
+ * @method $this withQosGroupName($value)
+ */
+class DescribeEniQosGroupInfo extends V20160314Rpc
 {
 }
 
@@ -911,39 +451,170 @@ class DescribeKMSKeyAttribute extends V20160314Rpc
 /**
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
+ * @method string getStartTime()
+ * @method $this withStartTime($value)
+ * @method string getPageNumber()
+ * @method $this withPageNumber($value)
+ * @method string getChronologicalOrder()
+ * @method $this withChronologicalOrder($value)
+ * @method string getPageSize()
+ * @method $this withPageSize($value)
+ * @method string getResourceId()
+ * @method $this withResourceId($value)
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
  * @method $this withOwnerAccount($value)
- * @method string getAutoReleaseTime()
- * @method $this withAutoReleaseTime($value)
+ * @method string getEndTime()
+ * @method $this withEndTime($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method string getInstanceId()
- * @method $this withInstanceId($value)
+ * @method string getResourceType()
+ * @method $this withResourceType($value)
  */
-class ModifyDedicatedHostAutoReleaseTime extends V20160314Rpc
+class DescribeConfigLogHistory extends V20160314Rpc
 {
 }
 
 /**
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
- * @method string getDescription()
- * @method $this withDescription($value)
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
  * @method $this withOwnerAccount($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method string getReservedInstanceId()
- * @method $this withReservedInstanceId($value)
- * @method string getReservedInstanceName()
- * @method $this withReservedInstanceName($value)
+ * @method array getName()
  */
-class ModifyReservedInstanceAttribute extends V20160314Rpc
+class DeleteConfigLogSubscriptions extends V20160314Rpc
 {
+
+    /**
+     * @param array $name
+     *
+     * @return $this
+     */
+    public function withName(array $name)
+    {
+        $this->data['Name'] = $name;
+        foreach ($name as $i => $iValue) {
+            $this->options['query']['Name.' . ($i + 1)] = $iValue;
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getNetworkInterfaceId()
+ * @method $this withNetworkInterfaceId($value)
+ */
+class LeaveEniQosGroup extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getAutoRebootTime()
+ * @method $this withAutoRebootTime($value)
+ * @method array getInstanceIds()
+ */
+class ModifyInstanceAutoRebootTime extends V20160314Rpc
+{
+
+    /**
+     * @param array $instanceIds
+     *
+     * @return $this
+     */
+    public function withInstanceIds(array $instanceIds)
+    {
+        $this->data['InstanceIds'] = $instanceIds;
+        foreach ($instanceIds as $i => $iValue) {
+            $this->options['query']['InstanceIds.' . ($i + 1)] = $iValue;
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method array getTemplateTag()
+ * @method string getProduct()
+ * @method $this withProduct($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getResourceType()
+ * @method $this withResourceType($value)
+ */
+class DescribeResourceFilterAttributes extends V20160314Rpc
+{
+
+    /**
+     * @param array $templateTag
+     *
+     * @return $this
+     */
+    public function withTemplateTag(array $templateTag)
+    {
+        $this->data['TemplateTag'] = $templateTag;
+        foreach ($templateTag as $depth1 => $depth1Value) {
+            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
+            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method array getSubscription()
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ */
+class CreateConfigLogSubscriptions extends V20160314Rpc
+{
+
+    /**
+     * @param array $subscription
+     *
+     * @return $this
+     */
+    public function withSubscription(array $subscription)
+    {
+        $this->data['Subscription'] = $subscription;
+        foreach ($subscription as $depth1 => $depth1Value) {
+            $this->options['query']['Subscription.' . ($depth1 + 1) . '.Name'] = $depth1Value['Name'];
+            $this->options['query']['Subscription.' . ($depth1 + 1) . '.ResourceType'] = $depth1Value['ResourceType'];
+            $this->options['query']['Subscription.' . ($depth1 + 1) . '.MnsQueueArn'] = $depth1Value['MnsQueueArn'];
+        }
+
+        return $this;
+    }
 }
 
 /**
@@ -992,47 +663,50 @@ class DescribeCapacityReservations extends V20160314Rpc
 /**
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
- * @method string getPageNumber()
- * @method $this withPageNumber($value)
- * @method string getPageSize()
- * @method $this withPageSize($value)
+ * @method string getDescription()
+ * @method $this withDescription($value)
+ * @method string getNetworkType()
+ * @method $this withNetworkType($value)
+ * @method string getResourceGroupId()
+ * @method $this withResourceGroupId($value)
+ * @method string getInstanceCount()
+ * @method $this withInstanceCount($value)
+ * @method string getInstanceType()
+ * @method $this withInstanceType($value)
+ * @method array getTag()
+ * @method string getInstancePlatform()
+ * @method $this withInstancePlatform($value)
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
  * @method $this withOwnerAccount($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method array getResourceType()
- * @method array getName()
+ * @method string getEndDateType()
+ * @method $this withEndDateType($value)
+ * @method string getInstanceMatchCriteria()
+ * @method $this withInstanceMatchCriteria($value)
+ * @method string getTimeSlot()
+ * @method $this withTimeSlot($value)
+ * @method string getCapacityReservationName()
+ * @method $this withCapacityReservationName($value)
+ * @method string getZoneId()
+ * @method $this withZoneId($value)
  */
-class DescribeConfigLogSubscription extends V20160314Rpc
+class CreateCapacityReservation extends V20160314Rpc
 {
 
     /**
-     * @param array $resourceType
+     * @param array $tag
      *
      * @return $this
      */
-    public function withResourceType(array $resourceType)
+    public function withTag(array $tag)
     {
-        $this->data['ResourceType'] = $resourceType;
-        foreach ($resourceType as $i => $iValue) {
-            $this->options['query']['ResourceType.' . ($i + 1)] = $iValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * @param array $name
-     *
-     * @return $this
-     */
-    public function withName(array $name)
-    {
-        $this->data['Name'] = $name;
-        foreach ($name as $i => $iValue) {
-            $this->options['query']['Name.' . ($i + 1)] = $iValue;
+        $this->data['Tag'] = $tag;
+        foreach ($tag as $depth1 => $depth1Value) {
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
         }
 
         return $this;
@@ -1042,27 +716,107 @@ class DescribeConfigLogSubscription extends V20160314Rpc
 /**
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
- * @method string getDuration()
- * @method $this withDuration($value)
- * @method string getRenewalStatus()
- * @method $this withRenewalStatus($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getAutoReleaseTime()
+ * @method $this withAutoReleaseTime($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getInstanceId()
+ * @method $this withInstanceId($value)
+ */
+class ModifyDedicatedHostAutoReleaseTime extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getChannel()
+ * @method string getOperator()
+ * @method string getPageNumber()
+ * @method $this withPageNumber($value)
+ * @method string getPageSize()
+ * @method $this withPageSize($value)
+ * @method string getProxyId()
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
  * @method $this withOwnerAccount($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method string getResourceType()
- * @method $this withResourceType($value)
- * @method string getPeriodUnit()
- * @method $this withPeriodUnit($value)
- * @method string getAutoRenew()
- * @method $this withAutoRenew($value)
- * @method string getInstanceIds()
- * @method $this withInstanceIds($value)
+ * @method string getToken()
+ * @method string getAppKey()
  */
-class ModifyDedicatedHostAutoRenewAttribute extends V20160314Rpc
+class DescribeKMSKeys extends V20160314Rpc
 {
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withChannel($value)
+    {
+        $this->data['Channel'] = $value;
+        $this->options['query']['channel'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withOperator($value)
+    {
+        $this->data['Operator'] = $value;
+        $this->options['query']['operator'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withProxyId($value)
+    {
+        $this->data['ProxyId'] = $value;
+        $this->options['query']['proxyId'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withToken($value)
+    {
+        $this->data['Token'] = $value;
+        $this->options['query']['token'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withAppKey($value)
+    {
+        $this->data['AppKey'] = $value;
+        $this->options['query']['appKey'] = $value;
+
+        return $this;
+    }
 }
 
 /**
@@ -1161,14 +915,20 @@ class AllocateDedicatedHosts extends V20160314Rpc
 /**
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
+ * @method string getDescription()
+ * @method $this withDescription($value)
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method string getNetworkInterfaceId()
- * @method $this withNetworkInterfaceId($value)
+ * @method string getReservedInstanceId()
+ * @method $this withReservedInstanceId($value)
+ * @method string getReservedInstanceName()
+ * @method $this withReservedInstanceName($value)
  */
-class LeaveEniQosGroup extends V20160314Rpc
+class ModifyReservedInstanceAttribute extends V20160314Rpc
 {
 }
 
@@ -1179,29 +939,161 @@ class LeaveEniQosGroup extends V20160314Rpc
  * @method $this withPageNumber($value)
  * @method string getPageSize()
  * @method $this withPageSize($value)
+ * @method array getTag()
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method array getInstanceIds()
+ * @method array getReservedInstanceId()
  */
-class DescribeInstanceNeedReboot extends V20160314Rpc
+class DescribeReservedInstancePrice extends V20160314Rpc
 {
 
     /**
-     * @param array $instanceIds
+     * @param array $tag
      *
      * @return $this
      */
-    public function withInstanceIds(array $instanceIds)
+    public function withTag(array $tag)
     {
-        $this->data['InstanceIds'] = $instanceIds;
-        foreach ($instanceIds as $i => $iValue) {
-            $this->options['query']['InstanceIds.' . ($i + 1)] = $iValue;
+        $this->data['Tag'] = $tag;
+        foreach ($tag as $depth1 => $depth1Value) {
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
         }
 
         return $this;
     }
+
+    /**
+     * @param array $reservedInstanceId
+     *
+     * @return $this
+     */
+    public function withReservedInstanceId(array $reservedInstanceId)
+    {
+        $this->data['ReservedInstanceId'] = $reservedInstanceId;
+        foreach ($reservedInstanceId as $i => $iValue) {
+            $this->options['query']['ReservedInstanceId.' . ($i + 1)] = $iValue;
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method array getConfiguration()
+ * @method array getTag()
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method array getReservedInstanceId()
+ */
+class ModifyReservedInstances extends V20160314Rpc
+{
+
+    /**
+     * @param array $configuration
+     *
+     * @return $this
+     */
+    public function withConfiguration(array $configuration)
+    {
+        $this->data['Configuration'] = $configuration;
+        foreach ($configuration as $depth1 => $depth1Value) {
+            $this->options['query']['Configuration.' . ($depth1 + 1) . '.ZoneId'] = $depth1Value['ZoneId'];
+            $this->options['query']['Configuration.' . ($depth1 + 1) . '.ReservedInstanceName'] = $depth1Value['ReservedInstanceName'];
+            $this->options['query']['Configuration.' . ($depth1 + 1) . '.InstanceType'] = $depth1Value['InstanceType'];
+            $this->options['query']['Configuration.' . ($depth1 + 1) . '.Scope'] = $depth1Value['Scope'];
+            $this->options['query']['Configuration.' . ($depth1 + 1) . '.InstanceAmount'] = $depth1Value['InstanceAmount'];
+        }
+
+        return $this;
+    }
+
+    /**
+     * @param array $tag
+     *
+     * @return $this
+     */
+    public function withTag(array $tag)
+    {
+        $this->data['Tag'] = $tag;
+        foreach ($tag as $depth1 => $depth1Value) {
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
+        }
+
+        return $this;
+    }
+
+    /**
+     * @param array $reservedInstanceId
+     *
+     * @return $this
+     */
+    public function withReservedInstanceId(array $reservedInstanceId)
+    {
+        $this->data['ReservedInstanceId'] = $reservedInstanceId;
+        foreach ($reservedInstanceId as $i => $iValue) {
+            $this->options['query']['ReservedInstanceId.' . ($i + 1)] = $iValue;
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getDedicatedHostIds()
+ * @method $this withDedicatedHostIds($value)
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getClientToken()
+ * @method $this withClientToken($value)
+ * @method string getBusinessInfo()
+ * @method $this withBusinessInfo($value)
+ * @method string getPeriod()
+ * @method $this withPeriod($value)
+ * @method string getFromApp()
+ * @method $this withFromApp($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getPeriodUnit()
+ * @method $this withPeriodUnit($value)
+ */
+class RenewDedicatedHosts extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getSupportInstanceTypeFamily()
+ * @method $this withSupportInstanceTypeFamily($value)
+ * @method string getDedicatedHostType()
+ * @method $this withDedicatedHostType($value)
+ * @method string getGeneration()
+ * @method $this withGeneration($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ */
+class DescribeDedicatedHostTypes extends V20160314Rpc
+{
 }
 
 /**
@@ -1260,190 +1152,22 @@ class CreateDisks extends V20160314Rpc
 /**
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
- * @method string getTx()
- * @method $this withTx($value)
- * @method string getRx()
- * @method $this withRx($value)
- * @method string getRxPps()
- * @method $this withRxPps($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getQosGroupName()
- * @method $this withQosGroupName($value)
- * @method string getTxPps()
- * @method $this withTxPps($value)
- */
-class ModifyEniQosGroup extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getPageNumber()
- * @method $this withPageNumber($value)
- * @method string getPageSize()
- * @method $this withPageSize($value)
- * @method array getTag()
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
  * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method array getReservedInstanceId()
- */
-class DescribeReservedInstancePrice extends V20160314Rpc
-{
-
-    /**
-     * @param array $tag
-     *
-     * @return $this
-     */
-    public function withTag(array $tag)
-    {
-        $this->data['Tag'] = $tag;
-        foreach ($tag as $depth1 => $depth1Value) {
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
-        }
-
-        return $this;
-    }
-
-    /**
-     * @param array $reservedInstanceId
-     *
-     * @return $this
-     */
-    public function withReservedInstanceId(array $reservedInstanceId)
-    {
-        $this->data['ReservedInstanceId'] = $reservedInstanceId;
-        foreach ($reservedInstanceId as $i => $iValue) {
-            $this->options['query']['ReservedInstanceId.' . ($i + 1)] = $iValue;
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getPageNumber()
- * @method $this withPageNumber($value)
- * @method string getLockReason()
- * @method $this withLockReason($value)
- * @method string getScope()
- * @method $this withScope($value)
- * @method string getPageSize()
- * @method $this withPageSize($value)
- * @method string getInstanceType()
- * @method $this withInstanceType($value)
- * @method array getTag()
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getInstanceTypeFamily()
- * @method $this withInstanceTypeFamily($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method array getReservedInstanceId()
- * @method string getOfferingType()
- * @method $this withOfferingType($value)
- * @method string getExpiredTime()
- * @method $this withExpiredTime($value)
- * @method string getZoneId()
- * @method $this withZoneId($value)
- * @method string getReservedInstanceName()
- * @method $this withReservedInstanceName($value)
- * @method array getStatus()
- */
-class DescribeReservedInstances extends V20160314Rpc
-{
-
-    /**
-     * @param array $tag
-     *
-     * @return $this
-     */
-    public function withTag(array $tag)
-    {
-        $this->data['Tag'] = $tag;
-        foreach ($tag as $depth1 => $depth1Value) {
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
-        }
-
-        return $this;
-    }
-
-    /**
-     * @param array $reservedInstanceId
-     *
-     * @return $this
-     */
-    public function withReservedInstanceId(array $reservedInstanceId)
-    {
-        $this->data['ReservedInstanceId'] = $reservedInstanceId;
-        foreach ($reservedInstanceId as $i => $iValue) {
-            $this->options['query']['ReservedInstanceId.' . ($i + 1)] = $iValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * @param array $status
-     *
-     * @return $this
-     */
-    public function withStatus(array $status)
-    {
-        $this->data['Status'] = $status;
-        foreach ($status as $i => $iValue) {
-            $this->options['query']['Status.' . ($i + 1)] = $iValue;
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getNetworkInterfaceId()
- * @method $this withNetworkInterfaceId($value)
- */
-class QueryEniQosGroupByEni extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
+ * @method string getTenancy()
+ * @method $this withTenancy($value)
  * @method string getDedicatedHostId()
  * @method $this withDedicatedHostId($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method string getToken()
- * @method $this withToken($value)
- * @method string getForce()
- * @method $this withForce($value)
+ * @method string getInstanceId()
+ * @method $this withInstanceId($value)
+ * @method string getAffinity()
+ * @method $this withAffinity($value)
  */
-class ReleaseDedicatedHost extends V20160314Rpc
+class ModifyInstanceDeployment extends V20160314Rpc
 {
 }
 
@@ -1462,38 +1186,33 @@ class QueryEniQosGroupByInstance extends V20160314Rpc
 }
 
 /**
+ * @method string getCommodity()
+ * @method $this withCommodity($value)
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
- * @method array getTemplateTag()
- * @method string getProduct()
- * @method $this withProduct($value)
+ * @method string getNeedSpotPrice()
+ * @method $this withNeedSpotPrice($value)
+ * @method string getNetworkType()
+ * @method $this withNetworkType($value)
+ * @method string getBusinessInfo()
+ * @method $this withBusinessInfo($value)
+ * @method string getFromApp()
+ * @method $this withFromApp($value)
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
  * @method $this withOwnerAccount($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method string getResourceType()
- * @method $this withResourceType($value)
+ * @method string getVerbose()
+ * @method $this withVerbose($value)
+ * @method string getDefaultVpc()
+ * @method $this withDefaultVpc($value)
+ * @method string getOrderType()
+ * @method $this withOrderType($value)
  */
-class DescribeResourceFilterAttributes extends V20160314Rpc
+class DescribePrice extends V20160314Rpc
 {
-
-    /**
-     * @param array $templateTag
-     *
-     * @return $this
-     */
-    public function withTemplateTag(array $templateTag)
-    {
-        $this->data['TemplateTag'] = $templateTag;
-        foreach ($templateTag as $depth1 => $depth1Value) {
-            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
-            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
-        }
-
-        return $this;
-    }
 }
 
 /**
@@ -1548,35 +1267,84 @@ class DescribeDedicatedHosts extends V20160314Rpc
 /**
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getQosGroupName()
- * @method $this withQosGroupName($value)
- * @method string getNetworkInterfaceId()
- * @method $this withNetworkInterfaceId($value)
- */
-class JoinEniQosGroup extends V20160314Rpc
-{
-}
-
-/**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getPriceUnit()
- * @method $this withPriceUnit($value)
+ * @method string getPageNumber()
+ * @method $this withPageNumber($value)
+ * @method string getPageSize()
+ * @method $this withPageSize($value)
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
  * @method $this withOwnerAccount($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method string getVerbose()
- * @method $this withVerbose($value)
+ * @method array getResourceType()
+ * @method array getName()
  */
-class DescribeBandwidthPrice extends V20160314Rpc
+class DescribeConfigLogSubscription extends V20160314Rpc
 {
+
+    /**
+     * @param array $resourceType
+     *
+     * @return $this
+     */
+    public function withResourceType(array $resourceType)
+    {
+        $this->data['ResourceType'] = $resourceType;
+        foreach ($resourceType as $i => $iValue) {
+            $this->options['query']['ResourceType.' . ($i + 1)] = $iValue;
+        }
+
+        return $this;
+    }
+
+    /**
+     * @param array $name
+     *
+     * @return $this
+     */
+    public function withName(array $name)
+    {
+        $this->data['Name'] = $name;
+        foreach ($name as $i => $iValue) {
+            $this->options['query']['Name.' . ($i + 1)] = $iValue;
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method array getFilter()
+ */
+class DescribeAccountLimits extends V20160314Rpc
+{
+
+    /**
+     * @param array $filter
+     *
+     * @return $this
+     */
+    public function withFilter(array $filter)
+    {
+        $this->data['Filter'] = $filter;
+        foreach ($filter as $depth1 => $depth1Value) {
+            foreach ($depth1Value['Value'] as $i => $iValue) {
+                $this->options['query']['Filter.' . ($depth1 + 1) . '.Value.' . ($i + 1)] = $iValue;
+            }
+            $this->options['query']['Filter.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
+        }
+
+        return $this;
+    }
 }
 
 /**
@@ -1609,6 +1377,214 @@ class DescribeInstanceAutoRebootTime extends V20160314Rpc
 
         return $this;
     }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getGlobal()
+ * @method $this withGlobal($value)
+ * @method array getTemplateTag()
+ * @method string getKeyword()
+ * @method $this withKeyword($value)
+ * @method string getProduct()
+ * @method $this withProduct($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getResourceType()
+ * @method $this withResourceType($value)
+ * @method string getRegionNo()
+ * @method $this withRegionNo($value)
+ * @method array getFilter()
+ * @method string getMarker()
+ * @method $this withMarker($value)
+ * @method string getMaxItems()
+ * @method $this withMaxItems($value)
+ */
+class DescribeResources extends V20160314Rpc
+{
+
+    /**
+     * @param array $templateTag
+     *
+     * @return $this
+     */
+    public function withTemplateTag(array $templateTag)
+    {
+        $this->data['TemplateTag'] = $templateTag;
+        foreach ($templateTag as $depth1 => $depth1Value) {
+            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
+            $this->options['query']['TemplateTag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
+        }
+
+        return $this;
+    }
+
+    /**
+     * @param array $filter
+     *
+     * @return $this
+     */
+    public function withFilter(array $filter)
+    {
+        $this->data['Filter'] = $filter;
+        foreach ($filter as $depth1 => $depth1Value) {
+            $this->options['query']['Filter.' . ($depth1 + 1) . '.AttributeName'] = $depth1Value['AttributeName'];
+            $this->options['query']['Filter.' . ($depth1 + 1) . '.Operation'] = $depth1Value['Operation'];
+            $this->options['query']['Filter.' . ($depth1 + 1) . '.AttributeValue'] = $depth1Value['AttributeValue'];
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getAutoReleaseTime()
+ * @method $this withAutoReleaseTime($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getInstanceId()
+ * @method $this withInstanceId($value)
+ */
+class SetInstanceAutoReleaseTime extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getDuration()
+ * @method $this withDuration($value)
+ * @method string getRenewalStatus()
+ * @method $this withRenewalStatus($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getResourceType()
+ * @method $this withResourceType($value)
+ * @method string getPeriodUnit()
+ * @method $this withPeriodUnit($value)
+ * @method string getAutoRenew()
+ * @method $this withAutoRenew($value)
+ * @method string getInstanceIds()
+ * @method $this withInstanceIds($value)
+ */
+class ModifyDedicatedHostAutoRenewAttribute extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getQosGroupName()
+ * @method $this withQosGroupName($value)
+ */
+class DeleteEniQosGroup extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getSnapshotId()
+ * @method $this withSnapshotId($value)
+ * @method string getClientToken()
+ * @method $this withClientToken($value)
+ * @method string getDescription()
+ * @method $this withDescription($value)
+ * @method string getVolumeCategory()
+ * @method $this withVolumeCategory($value)
+ * @method array getTag()
+ * @method string getAmount()
+ * @method $this withAmount($value)
+ * @method string getVolumeName()
+ * @method $this withVolumeName($value)
+ * @method string getVolumeEncrypted()
+ * @method $this withVolumeEncrypted($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getSize()
+ * @method $this withSize($value)
+ * @method string getZoneId()
+ * @method $this withZoneId($value)
+ * @method string getKMSKeyId()
+ * @method $this withKMSKeyId($value)
+ */
+class CreateVolumes extends V20160314Rpc
+{
+
+    /**
+     * @param array $tag
+     *
+     * @return $this
+     */
+    public function withTag(array $tag)
+    {
+        $this->data['Tag'] = $tag;
+        foreach ($tag as $depth1 => $depth1Value) {
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getQosGroupName()
+ * @method $this withQosGroupName($value)
+ * @method string getNetworkInterfaceId()
+ * @method $this withNetworkInterfaceId($value)
+ */
+class JoinEniQosGroup extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getCapacityReservationId()
+ * @method $this withCapacityReservationId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getCapacityReservationPreference()
+ * @method $this withCapacityReservationPreference($value)
+ * @method string getInstanceId()
+ * @method $this withInstanceId($value)
+ */
+class ModifyInstanceCapacityReservationAttributes extends V20160314Rpc
+{
 }
 
 /**
@@ -1891,6 +1867,8 @@ class RunInstances extends V20160314Rpc
  * @method $this withResourceOwnerId($value)
  * @method string getCapacityReservationId()
  * @method $this withCapacityReservationId($value)
+ * @method string getInstanceCount()
+ * @method $this withInstanceCount($value)
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
@@ -1900,89 +1878,88 @@ class RunInstances extends V20160314Rpc
  * @method string getToken()
  * @method $this withToken($value)
  */
-class ReleaseCapacityReservation extends V20160314Rpc
+class ModifyCapacityReservation extends V20160314Rpc
 {
 }
 
 /**
  * @method string getResourceOwnerId()
  * @method $this withResourceOwnerId($value)
- * @method string getChannel()
- * @method string getOperator()
- * @method string getProxyId()
+ * @method string getPageNumber()
+ * @method $this withPageNumber($value)
+ * @method string getLockReason()
+ * @method $this withLockReason($value)
+ * @method string getScope()
+ * @method $this withScope($value)
+ * @method string getPageSize()
+ * @method $this withPageSize($value)
+ * @method string getInstanceType()
+ * @method $this withInstanceType($value)
+ * @method array getTag()
  * @method string getResourceOwnerAccount()
  * @method $this withResourceOwnerAccount($value)
  * @method string getOwnerAccount()
  * @method $this withOwnerAccount($value)
+ * @method string getInstanceTypeFamily()
+ * @method $this withInstanceTypeFamily($value)
  * @method string getOwnerId()
  * @method $this withOwnerId($value)
- * @method string getToken()
- * @method string getAppKey()
+ * @method array getReservedInstanceId()
+ * @method string getOfferingType()
+ * @method $this withOfferingType($value)
+ * @method string getExpiredTime()
+ * @method $this withExpiredTime($value)
+ * @method string getZoneId()
+ * @method $this withZoneId($value)
+ * @method string getReservedInstanceName()
+ * @method $this withReservedInstanceName($value)
+ * @method array getStatus()
  */
-class DescribeLinkedKMSKeys extends V20160314Rpc
+class DescribeReservedInstances extends V20160314Rpc
 {
 
     /**
-     * @param string $value
+     * @param array $tag
      *
      * @return $this
      */
-    public function withChannel($value)
+    public function withTag(array $tag)
     {
-        $this->data['Channel'] = $value;
-        $this->options['query']['channel'] = $value;
+        $this->data['Tag'] = $tag;
+        foreach ($tag as $depth1 => $depth1Value) {
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
+            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
+        }
 
         return $this;
     }
 
     /**
-     * @param string $value
+     * @param array $reservedInstanceId
      *
      * @return $this
      */
-    public function withOperator($value)
+    public function withReservedInstanceId(array $reservedInstanceId)
     {
-        $this->data['Operator'] = $value;
-        $this->options['query']['operator'] = $value;
+        $this->data['ReservedInstanceId'] = $reservedInstanceId;
+        foreach ($reservedInstanceId as $i => $iValue) {
+            $this->options['query']['ReservedInstanceId.' . ($i + 1)] = $iValue;
+        }
 
         return $this;
     }
 
     /**
-     * @param string $value
+     * @param array $status
      *
      * @return $this
      */
-    public function withProxyId($value)
+    public function withStatus(array $status)
     {
-        $this->data['ProxyId'] = $value;
-        $this->options['query']['proxyId'] = $value;
-
-        return $this;
-    }
-
-    /**
-     * @param string $value
-     *
-     * @return $this
-     */
-    public function withToken($value)
-    {
-        $this->data['Token'] = $value;
-        $this->options['query']['token'] = $value;
-
-        return $this;
-    }
-
-    /**
-     * @param string $value
-     *
-     * @return $this
-     */
-    public function withAppKey($value)
-    {
-        $this->data['AppKey'] = $value;
-        $this->options['query']['appKey'] = $value;
+        $this->data['Status'] = $status;
+        foreach ($status as $i => $iValue) {
+            $this->options['query']['Status.' . ($i + 1)] = $iValue;
+        }
 
         return $this;
     }
@@ -2050,103 +2027,6 @@ class PurchaseReservedInstancesOffering extends V20160314Rpc
 }
 
 /**
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method array getConfiguration()
- * @method array getTag()
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method array getReservedInstanceId()
- */
-class ModifyReservedInstances extends V20160314Rpc
-{
-
-    /**
-     * @param array $configuration
-     *
-     * @return $this
-     */
-    public function withConfiguration(array $configuration)
-    {
-        $this->data['Configuration'] = $configuration;
-        foreach ($configuration as $depth1 => $depth1Value) {
-            $this->options['query']['Configuration.' . ($depth1 + 1) . '.ZoneId'] = $depth1Value['ZoneId'];
-            $this->options['query']['Configuration.' . ($depth1 + 1) . '.ReservedInstanceName'] = $depth1Value['ReservedInstanceName'];
-            $this->options['query']['Configuration.' . ($depth1 + 1) . '.InstanceType'] = $depth1Value['InstanceType'];
-            $this->options['query']['Configuration.' . ($depth1 + 1) . '.Scope'] = $depth1Value['Scope'];
-            $this->options['query']['Configuration.' . ($depth1 + 1) . '.InstanceAmount'] = $depth1Value['InstanceAmount'];
-        }
-
-        return $this;
-    }
-
-    /**
-     * @param array $tag
-     *
-     * @return $this
-     */
-    public function withTag(array $tag)
-    {
-        $this->data['Tag'] = $tag;
-        foreach ($tag as $depth1 => $depth1Value) {
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Key'] = $depth1Value['Key'];
-            $this->options['query']['Tag.' . ($depth1 + 1) . '.Value'] = $depth1Value['Value'];
-        }
-
-        return $this;
-    }
-
-    /**
-     * @param array $reservedInstanceId
-     *
-     * @return $this
-     */
-    public function withReservedInstanceId(array $reservedInstanceId)
-    {
-        $this->data['ReservedInstanceId'] = $reservedInstanceId;
-        foreach ($reservedInstanceId as $i => $iValue) {
-            $this->options['query']['ReservedInstanceId.' . ($i + 1)] = $iValue;
-        }
-
-        return $this;
-    }
-}
-
-/**
- * @method string getCommodity()
- * @method $this withCommodity($value)
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getNeedSpotPrice()
- * @method $this withNeedSpotPrice($value)
- * @method string getNetworkType()
- * @method $this withNetworkType($value)
- * @method string getBusinessInfo()
- * @method $this withBusinessInfo($value)
- * @method string getFromApp()
- * @method $this withFromApp($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getVerbose()
- * @method $this withVerbose($value)
- * @method string getDefaultVpc()
- * @method $this withDefaultVpc($value)
- * @method string getOrderType()
- * @method $this withOrderType($value)
- */
-class DescribePrice extends V20160314Rpc
-{
-}
-
-/**
  * @method string getCommodity()
  * @method $this withCommodity($value)
  * @method string getResourceOwnerId()
@@ -2178,4 +2058,124 @@ class DescribePrice extends V20160314Rpc
  */
 class CreateOrder extends V20160314Rpc
 {
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getPageNumber()
+ * @method $this withPageNumber($value)
+ * @method string getPageSize()
+ * @method $this withPageSize($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method array getInstanceIds()
+ */
+class DescribeInstanceNeedReboot extends V20160314Rpc
+{
+
+    /**
+     * @param array $instanceIds
+     *
+     * @return $this
+     */
+    public function withInstanceIds(array $instanceIds)
+    {
+        $this->data['InstanceIds'] = $instanceIds;
+        foreach ($instanceIds as $i => $iValue) {
+            $this->options['query']['InstanceIds.' . ($i + 1)] = $iValue;
+        }
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getCapacityReservationId()
+ * @method $this withCapacityReservationId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getToken()
+ * @method $this withToken($value)
+ */
+class ReleaseCapacityReservation extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getPriceUnit()
+ * @method $this withPriceUnit($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getVerbose()
+ * @method $this withVerbose($value)
+ */
+class DescribeBandwidthPrice extends V20160314Rpc
+{
+}
+
+/**
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getDescription()
+ * @method $this withDescription($value)
+ * @method string getActionOnMaintenance()
+ * @method $this withActionOnMaintenance($value)
+ * @method string getDedicatedHostName()
+ * @method $this withDedicatedHostName($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getDedicatedHostId()
+ * @method $this withDedicatedHostId($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getNetworkAttributesSlbUdpTimeout()
+ * @method string getAutoPlacement()
+ * @method $this withAutoPlacement($value)
+ * @method string getNetworkAttributesUdpTimeout()
+ */
+class ModifyDedicatedHostAttribute extends V20160314Rpc
+{
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withNetworkAttributesSlbUdpTimeout($value)
+    {
+        $this->data['NetworkAttributesSlbUdpTimeout'] = $value;
+        $this->options['query']['NetworkAttributes.SlbUdpTimeout'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withNetworkAttributesUdpTimeout($value)
+    {
+        $this->data['NetworkAttributesUdpTimeout'] = $value;
+        $this->options['query']['NetworkAttributes.UdpTimeout'] = $value;
+
+        return $this;
+    }
 }
