@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.93 - 2019-5-24
+- Generated 2016-02-01 for `AMS`
+
+
 ## 1.5.92 - 2019-5-23
 - Generated 2016-02-01 for `AMS`
 
