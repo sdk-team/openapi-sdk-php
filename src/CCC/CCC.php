@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\CCC;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170705\CCCApiResolver v20170705()
+ * @method static V20170705\CCCApiResolver v20170705()
  */
-class CCC
+class CCC extends VersionResolver
 {
-    use VersionResolverTrait;
 }

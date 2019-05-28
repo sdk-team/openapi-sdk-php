@@ -2,15 +2,12 @@
 
 namespace AlibabaCloud\Green;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170823\GreenApiResolver v20170823()
- * @method V20180509\GreenApiResolver v20180509()
+ * @method static V20170823\GreenApiResolver v20170823()
+ * @method static V20180509\GreenApiResolver v20180509()
  */
-class Green
+class Green extends VersionResolver
 {
-    use VersionResolverTrait;
 }

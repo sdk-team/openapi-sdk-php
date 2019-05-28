@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Ess;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20140828\EssApiResolver v20140828()
+ * @method static V20140828\EssApiResolver v20140828()
  */
-class Ess
+class Ess extends VersionResolver
 {
-    use VersionResolverTrait;
 }

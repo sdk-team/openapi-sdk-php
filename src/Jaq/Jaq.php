@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Jaq;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20161123\JaqApiResolver v20161123()
+ * @method static V20161123\JaqApiResolver v20161123()
  */
-class Jaq
+class Jaq extends VersionResolver
 {
-    use VersionResolverTrait;
 }

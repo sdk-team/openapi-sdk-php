@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Emr;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20160408\EmrApiResolver v20160408()
+ * @method static V20160408\EmrApiResolver v20160408()
  */
-class Emr
+class Emr extends VersionResolver
 {
-    use VersionResolverTrait;
 }

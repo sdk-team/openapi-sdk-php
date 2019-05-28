@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\DataworksPublic;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180601\DataworksPublicApiResolver v20180601()
+ * @method static V20180601\DataworksPublicApiResolver v20180601()
  */
-class DataworksPublic
+class DataworksPublic extends VersionResolver
 {
-    use VersionResolverTrait;
 }

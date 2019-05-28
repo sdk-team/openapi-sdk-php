@@ -2,15 +2,12 @@
 
 namespace AlibabaCloud\Ons;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170918\OnsApiResolver v20170918()
- * @method V20190214\OnsApiResolver v20190214()
+ * @method static V20170918\OnsApiResolver v20170918()
+ * @method static V20190214\OnsApiResolver v20190214()
  */
-class Ons
+class Ons extends VersionResolver
 {
-    use VersionResolverTrait;
 }

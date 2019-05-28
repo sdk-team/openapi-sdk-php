@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Crm;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20150408\CrmApiResolver v20150408()
+ * @method static V20150408\CrmApiResolver v20150408()
  */
-class Crm
+class Crm extends VersionResolver
 {
-    use VersionResolverTrait;
 }

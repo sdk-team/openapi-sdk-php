@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\RKvstore;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20150101\RKvstoreApiResolver v20150101()
+ * @method static V20150101\RKvstoreApiResolver v20150101()
  */
-class RKvstore
+class RKvstore extends VersionResolver
 {
-    use VersionResolverTrait;
 }

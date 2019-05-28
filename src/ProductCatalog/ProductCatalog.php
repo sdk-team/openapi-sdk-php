@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\ProductCatalog;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180918\ProductCatalogApiResolver v20180918()
+ * @method static V20180918\ProductCatalogApiResolver v20180918()
  */
-class ProductCatalog
+class ProductCatalog extends VersionResolver
 {
-    use VersionResolverTrait;
 }

@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Cloudmarketing;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180910\CloudmarketingApiResolver v20180910()
+ * @method static V20180910\CloudmarketingApiResolver v20180910()
  */
-class Cloudmarketing
+class Cloudmarketing extends VersionResolver
 {
-    use VersionResolverTrait;
 }

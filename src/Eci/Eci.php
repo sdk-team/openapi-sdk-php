@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Eci;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180808\EciApiResolver v20180808()
+ * @method static V20180808\EciApiResolver v20180808()
  */
-class Eci
+class Eci extends VersionResolver
 {
-    use VersionResolverTrait;
 }

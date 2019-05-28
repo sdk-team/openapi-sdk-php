@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Skyeye;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20171201\SkyeyeApiResolver v20171201()
+ * @method static V20171201\SkyeyeApiResolver v20171201()
  */
-class Skyeye
+class Skyeye extends VersionResolver
 {
-    use VersionResolverTrait;
 }

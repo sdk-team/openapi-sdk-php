@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\LinkWAN;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20181230\LinkWANApiResolver v20181230()
+ * @method static V20181230\LinkWANApiResolver v20181230()
  */
-class LinkWAN
+class LinkWAN extends VersionResolver
 {
-    use VersionResolverTrait;
 }

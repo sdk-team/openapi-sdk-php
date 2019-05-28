@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\MoPen;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180211\MoPenApiResolver v20180211()
+ * @method static V20180211\MoPenApiResolver v20180211()
  */
-class MoPen
+class MoPen extends VersionResolver
 {
-    use VersionResolverTrait;
 }

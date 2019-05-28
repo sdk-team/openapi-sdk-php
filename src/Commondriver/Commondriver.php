@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Commondriver;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20151229\CommondriverApiResolver v20151229()
+ * @method static V20151229\CommondriverApiResolver v20151229()
  */
-class Commondriver
+class Commondriver extends VersionResolver
 {
-    use VersionResolverTrait;
 }

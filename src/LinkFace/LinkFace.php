@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\LinkFace;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180720\LinkFaceApiResolver v20180720()
+ * @method static V20180720\LinkFaceApiResolver v20180720()
  */
-class LinkFace
+class LinkFace extends VersionResolver
 {
-    use VersionResolverTrait;
 }

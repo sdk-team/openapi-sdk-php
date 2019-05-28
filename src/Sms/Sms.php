@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Sms;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20160927\SmsApiResolver v20160927()
+ * @method static V20160927\SmsApiResolver v20160927()
  */
-class Sms
+class Sms extends VersionResolver
 {
-    use VersionResolverTrait;
 }

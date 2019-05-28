@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\PetaData;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20160101\PetaDataApiResolver v20160101()
+ * @method static V20160101\PetaDataApiResolver v20160101()
  */
-class PetaData
+class PetaData extends VersionResolver
 {
-    use VersionResolverTrait;
 }

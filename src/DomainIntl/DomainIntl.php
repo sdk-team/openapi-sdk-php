@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\DomainIntl;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20171218\DomainIntlApiResolver v20171218()
+ * @method static V20171218\DomainIntlApiResolver v20171218()
  */
-class DomainIntl
+class DomainIntl extends VersionResolver
 {
-    use VersionResolverTrait;
 }

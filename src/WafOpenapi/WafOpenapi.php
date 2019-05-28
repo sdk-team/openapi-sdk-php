@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\WafOpenapi;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20161111\WafOpenapiApiResolver v20161111()
+ * @method static V20161111\WafOpenapiApiResolver v20161111()
  */
-class WafOpenapi
+class WafOpenapi extends VersionResolver
 {
-    use VersionResolverTrait;
 }

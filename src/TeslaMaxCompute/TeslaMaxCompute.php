@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\TeslaMaxCompute;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180104\TeslaMaxComputeApiResolver v20180104()
+ * @method static V20180104\TeslaMaxComputeApiResolver v20180104()
  */
-class TeslaMaxCompute
+class TeslaMaxCompute extends VersionResolver
 {
-    use VersionResolverTrait;
 }

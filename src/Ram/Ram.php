@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Ram;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20150501\RamApiResolver v20150501()
+ * @method static V20150501\RamApiResolver v20150501()
  */
-class Ram
+class Ram extends VersionResolver
 {
-    use VersionResolverTrait;
 }

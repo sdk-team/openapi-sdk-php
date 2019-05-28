@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\ITaaS;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170505\ITaaSApiResolver v20170505()
+ * @method static V20170505\ITaaSApiResolver v20170505()
  */
-class ITaaS
+class ITaaS extends VersionResolver
 {
-    use VersionResolverTrait;
 }

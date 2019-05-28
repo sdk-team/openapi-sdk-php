@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Smartag;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180313\SmartagApiResolver v20180313()
+ * @method static V20180313\SmartagApiResolver v20180313()
  */
-class Smartag
+class Smartag extends VersionResolver
 {
-    use VersionResolverTrait;
 }

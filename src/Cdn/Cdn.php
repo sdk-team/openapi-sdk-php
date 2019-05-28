@@ -2,15 +2,12 @@
 
 namespace AlibabaCloud\Cdn;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20141111\CdnApiResolver v20141111()
- * @method V20180510\CdnApiResolver v20180510()
+ * @method static V20141111\CdnApiResolver v20141111()
+ * @method static V20180510\CdnApiResolver v20180510()
  */
-class Cdn
+class Cdn extends VersionResolver
 {
-    use VersionResolverTrait;
 }

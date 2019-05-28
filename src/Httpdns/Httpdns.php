@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Httpdns;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20160201\HttpdnsApiResolver v20160201()
+ * @method static V20160201\HttpdnsApiResolver v20160201()
  */
-class Httpdns
+class Httpdns extends VersionResolver
 {
-    use VersionResolverTrait;
 }

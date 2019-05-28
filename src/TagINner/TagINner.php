@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\TagINner;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20181109\TagINnerApiResolver v20181109()
+ * @method static V20181109\TagINnerApiResolver v20181109()
  */
-class TagINner
+class TagINner extends VersionResolver
 {
-    use VersionResolverTrait;
 }

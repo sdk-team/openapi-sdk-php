@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Drcloud;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20190213\DrcloudApiResolver v20190213()
+ * @method static V20190213\DrcloudApiResolver v20190213()
  */
-class Drcloud
+class Drcloud extends VersionResolver
 {
-    use VersionResolverTrait;
 }

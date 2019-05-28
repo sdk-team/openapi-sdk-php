@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Hsm;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180111\HsmApiResolver v20180111()
+ * @method static V20180111\HsmApiResolver v20180111()
  */
-class Hsm
+class Hsm extends VersionResolver
 {
-    use VersionResolverTrait;
 }

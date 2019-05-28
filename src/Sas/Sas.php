@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Sas;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20181203\SasApiResolver v20181203()
+ * @method static V20181203\SasApiResolver v20181203()
  */
-class Sas
+class Sas extends VersionResolver
 {
-    use VersionResolverTrait;
 }

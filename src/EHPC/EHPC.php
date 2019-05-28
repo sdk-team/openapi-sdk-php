@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\EHPC;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180412\EHPCApiResolver v20180412()
+ * @method static V20180412\EHPCApiResolver v20180412()
  */
-class EHPC
+class EHPC extends VersionResolver
 {
-    use VersionResolverTrait;
 }

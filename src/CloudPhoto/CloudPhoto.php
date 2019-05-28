@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\CloudPhoto;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170711\CloudPhotoApiResolver v20170711()
+ * @method static V20170711\CloudPhotoApiResolver v20170711()
  */
-class CloudPhoto
+class CloudPhoto extends VersionResolver
 {
-    use VersionResolverTrait;
 }

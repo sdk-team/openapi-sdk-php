@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\WelfareInner;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180524\WelfareInnerApiResolver v20180524()
+ * @method static V20180524\WelfareInnerApiResolver v20180524()
  */
-class WelfareInner
+class WelfareInner extends VersionResolver
 {
-    use VersionResolverTrait;
 }

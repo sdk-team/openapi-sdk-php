@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Gpdb;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20160503\GpdbApiResolver v20160503()
+ * @method static V20160503\GpdbApiResolver v20160503()
  */
-class Gpdb
+class Gpdb extends VersionResolver
 {
-    use VersionResolverTrait;
 }

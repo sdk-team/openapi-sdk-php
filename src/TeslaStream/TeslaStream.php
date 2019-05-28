@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\TeslaStream;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180115\TeslaStreamApiResolver v20180115()
+ * @method static V20180115\TeslaStreamApiResolver v20180115()
  */
-class TeslaStream
+class TeslaStream extends VersionResolver
 {
-    use VersionResolverTrait;
 }

@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\PTS;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20181111\PTSApiResolver v20181111()
+ * @method static V20181111\PTSApiResolver v20181111()
  */
-class PTS
+class PTS extends VersionResolver
 {
-    use VersionResolverTrait;
 }

@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\CSB;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20171118\CSBApiResolver v20171118()
+ * @method static V20171118\CSBApiResolver v20171118()
  */
-class CSB
+class CSB extends VersionResolver
 {
-    use VersionResolverTrait;
 }

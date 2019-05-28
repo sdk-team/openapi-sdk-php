@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Kms;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20160120\KmsApiResolver v20160120()
+ * @method static V20160120\KmsApiResolver v20160120()
  */
-class Kms
+class Kms extends VersionResolver
 {
-    use VersionResolverTrait;
 }

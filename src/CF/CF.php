@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\CF;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20151127\CFApiResolver v20151127()
+ * @method static V20151127\CFApiResolver v20151127()
  */
-class CF
+class CF extends VersionResolver
 {
-    use VersionResolverTrait;
 }

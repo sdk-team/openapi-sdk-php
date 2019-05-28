@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Chatbot;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20171011\ChatbotApiResolver v20171011()
+ * @method static V20171011\ChatbotApiResolver v20171011()
  */
-class Chatbot
+class Chatbot extends VersionResolver
 {
-    use VersionResolverTrait;
 }

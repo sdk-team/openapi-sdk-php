@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Dcdn;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180115\DcdnApiResolver v20180115()
+ * @method static V20180115\DcdnApiResolver v20180115()
  */
-class Dcdn
+class Dcdn extends VersionResolver
 {
-    use VersionResolverTrait;
 }

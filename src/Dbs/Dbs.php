@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Dbs;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20190306\DbsApiResolver v20190306()
+ * @method static V20190306\DbsApiResolver v20190306()
  */
-class Dbs
+class Dbs extends VersionResolver
 {
-    use VersionResolverTrait;
 }

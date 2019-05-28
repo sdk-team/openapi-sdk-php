@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Bss;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20140714\BssApiResolver v20140714()
+ * @method static V20140714\BssApiResolver v20140714()
  */
-class Bss
+class Bss extends VersionResolver
 {
-    use VersionResolverTrait;
 }

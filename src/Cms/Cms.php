@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Cms;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180308\CmsApiResolver v20180308()
+ * @method static V20180308\CmsApiResolver v20180308()
  */
-class Cms
+class Cms extends VersionResolver
 {
-    use VersionResolverTrait;
 }

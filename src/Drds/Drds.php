@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Drds;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20171016\DrdsApiResolver v20171016()
+ * @method static V20171016\DrdsApiResolver v20171016()
  */
-class Drds
+class Drds extends VersionResolver
 {
-    use VersionResolverTrait;
 }

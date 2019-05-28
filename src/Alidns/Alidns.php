@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Alidns;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20150109\AlidnsApiResolver v20150109()
+ * @method static V20150109\AlidnsApiResolver v20150109()
  */
-class Alidns
+class Alidns extends VersionResolver
 {
-    use VersionResolverTrait;
 }

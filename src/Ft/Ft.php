@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Ft;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180713\FtApiResolver v20180713()
+ * @method static V20180713\FtApiResolver v20180713()
  */
-class Ft
+class Ft extends VersionResolver
 {
-    use VersionResolverTrait;
 }

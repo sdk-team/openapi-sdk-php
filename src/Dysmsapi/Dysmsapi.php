@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Dysmsapi;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170525\DysmsapiApiResolver v20170525()
+ * @method static V20170525\DysmsapiApiResolver v20170525()
  */
-class Dysmsapi
+class Dysmsapi extends VersionResolver
 {
-    use VersionResolverTrait;
 }

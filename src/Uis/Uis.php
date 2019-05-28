@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Uis;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180821\UisApiResolver v20180821()
+ * @method static V20180821\UisApiResolver v20180821()
  */
-class Uis
+class Uis extends VersionResolver
 {
-    use VersionResolverTrait;
 }

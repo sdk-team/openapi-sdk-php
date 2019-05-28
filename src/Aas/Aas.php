@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Aas;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20150701\AasApiResolver v20150701()
+ * @method static V20150701\AasApiResolver v20150701()
  */
-class Aas
+class Aas extends VersionResolver
 {
-    use VersionResolverTrait;
 }

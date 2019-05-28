@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Actiontrail;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20171204\ActiontrailApiResolver v20171204()
+ * @method static V20171204\ActiontrailApiResolver v20171204()
  */
-class Actiontrail
+class Actiontrail extends VersionResolver
 {
-    use VersionResolverTrait;
 }

@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Cds;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170925\CdsApiResolver v20170925()
+ * @method static V20170925\CdsApiResolver v20170925()
  */
-class Cds
+class Cds extends VersionResolver
 {
-    use VersionResolverTrait;
 }

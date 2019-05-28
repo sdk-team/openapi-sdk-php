@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Xspace;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170720\XspaceApiResolver v20170720()
+ * @method static V20170720\XspaceApiResolver v20170720()
  */
-class Xspace
+class Xspace extends VersionResolver
 {
-    use VersionResolverTrait;
 }

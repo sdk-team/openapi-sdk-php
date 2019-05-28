@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Polardb;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170801\PolardbApiResolver v20170801()
+ * @method static V20170801\PolardbApiResolver v20170801()
  */
-class Polardb
+class Polardb extends VersionResolver
 {
-    use VersionResolverTrait;
 }

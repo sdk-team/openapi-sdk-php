@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Rtc;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180111\RtcApiResolver v20180111()
+ * @method static V20180111\RtcApiResolver v20180111()
  */
-class Rtc
+class Rtc extends VersionResolver
 {
-    use VersionResolverTrait;
 }

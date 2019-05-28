@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\BatchCompute;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20130111\BatchComputeApiResolver v20130111()
+ * @method static V20130111\BatchComputeApiResolver v20130111()
  */
-class BatchCompute
+class BatchCompute extends VersionResolver
 {
-    use VersionResolverTrait;
 }

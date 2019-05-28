@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Snsuapi;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180709\SnsuapiApiResolver v20180709()
+ * @method static V20180709\SnsuapiApiResolver v20180709()
  */
-class Snsuapi
+class Snsuapi extends VersionResolver
 {
-    use VersionResolverTrait;
 }

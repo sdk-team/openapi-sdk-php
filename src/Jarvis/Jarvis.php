@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Jarvis;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180206\JarvisApiResolver v20180206()
+ * @method static V20180206\JarvisApiResolver v20180206()
  */
-class Jarvis
+class Jarvis extends VersionResolver
 {
-    use VersionResolverTrait;
 }

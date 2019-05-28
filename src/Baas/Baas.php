@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Baas;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180731\BaasApiResolver v20180731()
+ * @method static V20180731\BaasApiResolver v20180731()
  */
-class Baas
+class Baas extends VersionResolver
 {
-    use VersionResolverTrait;
 }

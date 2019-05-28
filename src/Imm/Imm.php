@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Imm;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170906\ImmApiResolver v20170906()
+ * @method static V20170906\ImmApiResolver v20170906()
  */
-class Imm
+class Imm extends VersionResolver
 {
-    use VersionResolverTrait;
 }

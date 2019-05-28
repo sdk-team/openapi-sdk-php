@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Cloudesl;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180801\CloudeslApiResolver v20180801()
+ * @method static V20180801\CloudeslApiResolver v20180801()
  */
-class Cloudesl
+class Cloudesl extends VersionResolver
 {
-    use VersionResolverTrait;
 }

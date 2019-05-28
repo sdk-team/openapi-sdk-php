@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\UbsmsInner;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20150623\UbsmsInnerApiResolver v20150623()
+ * @method static V20150623\UbsmsInnerApiResolver v20150623()
  */
-class UbsmsInner
+class UbsmsInner extends VersionResolver
 {
-    use VersionResolverTrait;
 }

@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Ivision;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20190308\IvisionApiResolver v20190308()
+ * @method static V20190308\IvisionApiResolver v20190308()
  */
-class Ivision
+class Ivision extends VersionResolver
 {
-    use VersionResolverTrait;
 }

@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Qualitycheck;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20190115\QualitycheckApiResolver v20190115()
+ * @method static V20190115\QualitycheckApiResolver v20190115()
  */
-class Qualitycheck
+class Qualitycheck extends VersionResolver
 {
-    use VersionResolverTrait;
 }

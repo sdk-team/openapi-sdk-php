@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Pvtz;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180101\PvtzApiResolver v20180101()
+ * @method static V20180101\PvtzApiResolver v20180101()
  */
-class Pvtz
+class Pvtz extends VersionResolver
 {
-    use VersionResolverTrait;
 }

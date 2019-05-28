@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\AliProbe;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20161222\AliProbeApiResolver v20161222()
+ * @method static V20161222\AliProbeApiResolver v20161222()
  */
-class AliProbe
+class AliProbe extends VersionResolver
 {
-    use VersionResolverTrait;
 }

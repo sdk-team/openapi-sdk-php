@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\IndustryBrain;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180712\IndustryBrainApiResolver v20180712()
+ * @method static V20180712\IndustryBrainApiResolver v20180712()
  */
-class IndustryBrain
+class IndustryBrain extends VersionResolver
 {
-    use VersionResolverTrait;
 }

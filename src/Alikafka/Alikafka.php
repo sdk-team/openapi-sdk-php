@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Alikafka;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20181015\AlikafkaApiResolver v20181015()
+ * @method static V20181015\AlikafkaApiResolver v20181015()
  */
-class Alikafka
+class Alikafka extends VersionResolver
 {
-    use VersionResolverTrait;
 }

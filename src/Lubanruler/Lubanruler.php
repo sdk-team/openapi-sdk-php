@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Lubanruler;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20171228\LubanrulerApiResolver v20171228()
+ * @method static V20171228\LubanrulerApiResolver v20171228()
  */
-class Lubanruler
+class Lubanruler extends VersionResolver
 {
-    use VersionResolverTrait;
 }

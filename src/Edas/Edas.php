@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Edas;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170801\EdasApiResolver v20170801()
+ * @method static V20170801\EdasApiResolver v20170801()
  */
-class Edas
+class Edas extends VersionResolver
 {
-    use VersionResolverTrait;
 }

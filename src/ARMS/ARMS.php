@@ -2,15 +2,13 @@
 
 namespace AlibabaCloud\ARMS;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20160804\ARMSApiResolver v20160804()
- * @method V20181015\ARMSApiResolver v20181015()
+ * @method static V20160804\ARMSApiResolver v20160804()
+ * @method static V20181015\ARMSApiResolver v20181015()
+ * @method static V20181219\ARMSApiResolver v20181219()
  */
-class ARMS
+class ARMS extends VersionResolver
 {
-    use VersionResolverTrait;
 }

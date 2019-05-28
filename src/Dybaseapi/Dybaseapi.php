@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Dybaseapi;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170525\DybaseapiApiResolver v20170525()
+ * @method static V20170525\DybaseapiApiResolver v20170525()
  */
-class Dybaseapi
+class Dybaseapi extends VersionResolver
 {
-    use VersionResolverTrait;
 }

@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Airec;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20181012\AirecApiResolver v20181012()
+ * @method static V20181012\AirecApiResolver v20181012()
  */
-class Airec
+class Airec extends VersionResolver
 {
-    use VersionResolverTrait;
 }

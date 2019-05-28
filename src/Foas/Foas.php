@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Foas;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20181111\FoasApiResolver v20181111()
+ * @method static V20181111\FoasApiResolver v20181111()
  */
-class Foas
+class Foas extends VersionResolver
 {
-    use VersionResolverTrait;
 }

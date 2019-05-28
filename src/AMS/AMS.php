@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\AMS;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20160201\AMSApiResolver v20160201()
+ * @method static V20160201\AMSApiResolver v20160201()
  */
-class AMS
+class AMS extends VersionResolver
 {
-    use VersionResolverTrait;
 }

@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Nlp;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180408\NlpApiResolver v20180408()
+ * @method static V20180408\NlpApiResolver v20180408()
  */
-class Nlp
+class Nlp extends VersionResolver
 {
-    use VersionResolverTrait;
 }

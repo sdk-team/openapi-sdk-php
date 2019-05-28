@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Openanalytics;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180301\OpenanalyticsApiResolver v20180301()
+ * @method static V20180301\OpenanalyticsApiResolver v20180301()
  */
-class Openanalytics
+class Openanalytics extends VersionResolver
 {
-    use VersionResolverTrait;
 }

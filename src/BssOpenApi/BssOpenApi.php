@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\BssOpenApi;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20171214\BssOpenApiApiResolver v20171214()
+ * @method static V20171214\BssOpenApiApiResolver v20171214()
  */
-class BssOpenApi
+class BssOpenApi extends VersionResolver
 {
-    use VersionResolverTrait;
 }

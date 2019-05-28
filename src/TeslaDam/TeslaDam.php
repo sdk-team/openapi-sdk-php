@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\TeslaDam;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20180118\TeslaDamApiResolver v20180118()
+ * @method static V20180118\TeslaDamApiResolver v20180118()
  */
-class TeslaDam
+class TeslaDam extends VersionResolver
 {
-    use VersionResolverTrait;
 }

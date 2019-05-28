@@ -2,15 +2,12 @@
 
 namespace AlibabaCloud\Yundun;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20150227\YundunApiResolver v20150227()
- * @method V20150416\YundunApiResolver v20150416()
+ * @method static V20150227\YundunApiResolver v20150227()
+ * @method static V20150416\YundunApiResolver v20150416()
  */
-class Yundun
+class Yundun extends VersionResolver
 {
-    use VersionResolverTrait;
 }

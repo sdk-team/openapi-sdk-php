@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Vod;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170321\VodApiResolver v20170321()
+ * @method static V20170321\VodApiResolver v20170321()
  */
-class Vod
+class Vod extends VersionResolver
 {
-    use VersionResolverTrait;
 }

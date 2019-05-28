@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Dts;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20160801\DtsApiResolver v20160801()
+ * @method static V20160801\DtsApiResolver v20160801()
  */
-class Dts
+class Dts extends VersionResolver
 {
-    use VersionResolverTrait;
 }

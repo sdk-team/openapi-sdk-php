@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\ROS;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20150901\ROSApiResolver v20150901()
+ * @method static V20150901\ROSApiResolver v20150901()
  */
-class ROS
+class ROS extends VersionResolver
 {
-    use VersionResolverTrait;
 }

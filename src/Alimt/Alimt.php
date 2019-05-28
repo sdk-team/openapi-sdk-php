@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\Alimt;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20181012\AlimtApiResolver v20181012()
+ * @method static V20181012\AlimtApiResolver v20181012()
  */
-class Alimt
+class Alimt extends VersionResolver
 {
-    use VersionResolverTrait;
 }

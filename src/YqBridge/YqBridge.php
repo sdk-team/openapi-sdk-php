@@ -2,14 +2,11 @@
 
 namespace AlibabaCloud\YqBridge;
 
-use AlibabaCloud\VersionResolverTrait;
+use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * Resolve version based on the method name.
- *
- * @method V20170810\YqBridgeApiResolver v20170810()
+ * @method static V20170810\YqBridgeApiResolver v20170810()
  */
-class YqBridge
+class YqBridge extends VersionResolver
 {
-    use VersionResolverTrait;
 }
