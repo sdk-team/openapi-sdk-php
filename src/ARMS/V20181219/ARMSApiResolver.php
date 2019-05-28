@@ -5,12 +5,12 @@ namespace AlibabaCloud\ARMS\V20181219;
 use AlibabaCloud\Client\Resolver\ApiResolver;
 
 /**
- * @method DeleteApp deleteApp(array $options = [])
- * @method CreateApp createApp(array $options = [])
+ * @method GetTrace getTrace(array $options = [])
+ * @method GetServices getServices(array $options = [])
  * @method SearchTraces searchTraces(array $options = [])
  * @method MetricQuery metricQuery(array $options = [])
- * @method GetServices getServices(array $options = [])
- * @method GetTrace getTrace(array $options = [])
+ * @method CreateApp createApp(array $options = [])
+ * @method DeleteApp deleteApp(array $options = [])
  * @method ARMSQueryDataSet aRMSQueryDataSet(array $options = [])
  */
 class ARMSApiResolver extends ApiResolver
@@ -33,28 +33,20 @@ class Rpc extends \AlibabaCloud\Client\Resolver\Rpc
 }
 
 /**
- * @method string getAppId()
- * @method $this withAppId($value)
- * @method string getType()
- * @method $this withType($value)
+ * @method string getTraceID()
+ * @method $this withTraceID($value)
+ * @method string getAppType()
+ * @method $this withAppType($value)
  */
-class DeleteApp extends Rpc
+class GetTrace extends Rpc
 {
 }
 
 /**
- * @method string getSource()
- * @method $this withSource($value)
- * @method string getType()
- * @method $this withType($value)
- * @method string getAppName()
- * @method $this withAppName($value)
- * @method string getAppId()
- * @method $this withAppId($value)
- * @method string getConfig()
- * @method $this withConfig($value)
+ * @method string getAppType()
+ * @method $this withAppType($value)
  */
-class CreateApp extends Rpc
+class GetServices extends Rpc
 {
 }
 
@@ -152,20 +144,28 @@ class MetricQuery extends Rpc
 }
 
 /**
- * @method string getAppType()
- * @method $this withAppType($value)
+ * @method string getSource()
+ * @method $this withSource($value)
+ * @method string getType()
+ * @method $this withType($value)
+ * @method string getAppName()
+ * @method $this withAppName($value)
+ * @method string getAppId()
+ * @method $this withAppId($value)
+ * @method string getConfig()
+ * @method $this withConfig($value)
  */
-class GetServices extends Rpc
+class CreateApp extends Rpc
 {
 }
 
 /**
- * @method string getTraceID()
- * @method $this withTraceID($value)
- * @method string getAppType()
- * @method $this withAppType($value)
+ * @method string getAppId()
+ * @method $this withAppId($value)
+ * @method string getType()
+ * @method $this withType($value)
  */
-class GetTrace extends Rpc
+class DeleteApp extends Rpc
 {
 }
 
