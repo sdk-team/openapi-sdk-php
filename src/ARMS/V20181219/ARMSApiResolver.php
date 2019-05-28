@@ -6,12 +6,12 @@ use AlibabaCloud\Client\Resolver\ApiResolver;
 
 /**
  * @method DeleteApp deleteApp(array $options = [])
- * @method CreateApp createApp(array $options = [])
- * @method SearchTraces searchTraces(array $options = [])
- * @method MetricQuery metricQuery(array $options = [])
- * @method ARMSQueryDataSet aRMSQueryDataSet(array $options = [])
  * @method GetServices getServices(array $options = [])
+ * @method SearchTraces searchTraces(array $options = [])
+ * @method CreateApp createApp(array $options = [])
+ * @method MetricQuery metricQuery(array $options = [])
  * @method GetTrace getTrace(array $options = [])
+ * @method ARMSQueryDataSet aRMSQueryDataSet(array $options = [])
  */
 class ARMSApiResolver extends ApiResolver
 {
@@ -43,18 +43,10 @@ class DeleteApp extends Rpc
 }
 
 /**
- * @method string getSource()
- * @method $this withSource($value)
- * @method string getType()
- * @method $this withType($value)
- * @method string getAppName()
- * @method $this withAppName($value)
- * @method string getAppId()
- * @method $this withAppId($value)
- * @method string getConfig()
- * @method $this withConfig($value)
+ * @method string getAppType()
+ * @method $this withAppType($value)
  */
-class CreateApp extends Rpc
+class GetServices extends Rpc
 {
 }
 
@@ -77,6 +69,22 @@ class CreateApp extends Rpc
  * @method $this withServiceName($value)
  */
 class SearchTraces extends Rpc
+{
+}
+
+/**
+ * @method string getSource()
+ * @method $this withSource($value)
+ * @method string getType()
+ * @method $this withType($value)
+ * @method string getAppName()
+ * @method $this withAppName($value)
+ * @method string getAppId()
+ * @method $this withAppId($value)
+ * @method string getConfig()
+ * @method $this withConfig($value)
+ */
+class CreateApp extends Rpc
 {
 }
 
@@ -149,6 +157,16 @@ class MetricQuery extends Rpc
 
         return $this;
     }
+}
+
+/**
+ * @method string getTraceID()
+ * @method $this withTraceID($value)
+ * @method string getAppType()
+ * @method $this withAppType($value)
+ */
+class GetTrace extends Rpc
+{
 }
 
 /**
@@ -247,22 +265,4 @@ class ARMSQueryDataSet extends Rpc
 
         return $this;
     }
-}
-
-/**
- * @method string getAppType()
- * @method $this withAppType($value)
- */
-class GetServices extends Rpc
-{
-}
-
-/**
- * @method string getTraceID()
- * @method $this withTraceID($value)
- * @method string getAppType()
- * @method $this withAppType($value)
- */
-class GetTrace extends Rpc
-{
 }

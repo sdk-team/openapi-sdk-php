@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.95 - 2019-5-28
+- Generated 2018-12-19 for `ARMS`
+
+
 ## 1.5.94 - 2019-5-28
 - Generated 2018-12-19 for `ARMS`
 
