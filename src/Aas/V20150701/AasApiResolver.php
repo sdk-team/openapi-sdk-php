@@ -6,35 +6,35 @@ use AlibabaCloud\Client\Resolver\ApiResolver;
 
 /**
  * @method GetBasicInfoForAccount getBasicInfoForAccount(array $options = [])
- * @method CreateAliyunAccount createAliyunAccount(array $options = [])
- * @method GetAliyunAccountWithBindTaobaoHid getAliyunAccountWithBindTaobaoHid(array $options = [])
- * @method GetAliyunAccountWithBindHid getAliyunAccountWithBindHid(array $options = [])
- * @method GetSessionInfoByTicketWithRouteSHRO getSessionInfoByTicketWithRouteSHRO(array $options = [])
- * @method GetSessionInfoByTicket getSessionInfoByTicket(array $options = [])
- * @method VerifyAccountLoginToken verifyAccountLoginToken(array $options = [])
- * @method ListAccessKeysForAccount listAccessKeysForAccount(array $options = [])
+ * @method GetLoginConfigInfoByPK getLoginConfigInfoByPK(array $options = [])
+ * @method GetBasicAccountInfoByPk getBasicAccountInfoByPk(array $options = [])
+ * @method CreateAccessKeyForAccount createAccessKeyForAccount(array $options = [])
+ * @method GetSessionInfoByMiniTicket getSessionInfoByMiniTicket(array $options = [])
  * @method DeleteAccessKeyForAccount deleteAccessKeyForAccount(array $options = [])
- * @method CreateIntlAliyunAccount createIntlAliyunAccount(array $options = [])
+ * @method ListAccessKeysForAccount listAccessKeysForAccount(array $options = [])
+ * @method CreateShortTermAccessKeyForAccount createShortTermAccessKeyForAccount(array $options = [])
+ * @method GetSessionInfoByMiniTicketWithRoute getSessionInfoByMiniTicketWithRoute(array $options = [])
  * @method GetSessionInfoByMiniTicketWithRouteSGPRO getSessionInfoByMiniTicketWithRouteSGPRO(array $options = [])
+ * @method GetAliyunAccountWithBindTaobaoHid getAliyunAccountWithBindTaobaoHid(array $options = [])
+ * @method GetSessionInfoByTicketWithRouteSGPRO getSessionInfoByTicketWithRouteSGPRO(array $options = [])
+ * @method GetSessionInfoByMiniTicketWithRouteSHRO getSessionInfoByMiniTicketWithRouteSHRO(array $options = [])
+ * @method GetShortTermAccessKeyForAccount getShortTermAccessKeyForAccount(array $options = [])
+ * @method CreateAliyunAccount createAliyunAccount(array $options = [])
+ * @method ListAliyunAccount listAliyunAccount(array $options = [])
+ * @method GetSessionInfoByTicket getSessionInfoByTicket(array $options = [])
+ * @method UpdatePasswordForAccount updatePasswordForAccount(array $options = [])
+ * @method UpdateAccessKeyStatusForAccount updateAccessKeyStatusForAccount(array $options = [])
+ * @method GetSessionInfoByTicketWithRouteSHRO getSessionInfoByTicketWithRouteSHRO(array $options = [])
+ * @method GetAliyunAccountWithBindHid getAliyunAccountWithBindHid(array $options = [])
+ * @method GenerateAccountLoginToken generateAccountLoginToken(array $options = [])
+ * @method GetAccountKinshipInfoByPK getAccountKinshipInfoByPK(array $options = [])
+ * @method CreateIntlAliyunAccount createIntlAliyunAccount(array $options = [])
  * @method CreateAliyunAccountWithBindHid createAliyunAccountWithBindHid(array $options = [])
  * @method GetSessionInfoByTicketWithRoute getSessionInfoByTicketWithRoute(array $options = [])
- * @method UpdateStatusForAccount updateStatusForAccount(array $options = [])
- * @method GetSessionInfoByMiniTicket getSessionInfoByMiniTicket(array $options = [])
- * @method GetSessionInfoByMiniTicketWithRouteSHRO getSessionInfoByMiniTicketWithRouteSHRO(array $options = [])
- * @method UpdateAccessKeyStatusForAccount updateAccessKeyStatusForAccount(array $options = [])
- * @method GetAccountKinshipInfoByPK getAccountKinshipInfoByPK(array $options = [])
  * @method GetBasicAccountInfoByHavanaId getBasicAccountInfoByHavanaId(array $options = [])
- * @method CreateShortTermAccessKeyForAccount createShortTermAccessKeyForAccount(array $options = [])
- * @method CreateAccessKeyForAccount createAccessKeyForAccount(array $options = [])
+ * @method UpdateStatusForAccount updateStatusForAccount(array $options = [])
  * @method IsBindMfaByPk isBindMfaByPk(array $options = [])
- * @method GetLoginConfigInfoByPK getLoginConfigInfoByPK(array $options = [])
- * @method GenerateAccountLoginToken generateAccountLoginToken(array $options = [])
- * @method GetBasicAccountInfoByPk getBasicAccountInfoByPk(array $options = [])
- * @method UpdatePasswordForAccount updatePasswordForAccount(array $options = [])
- * @method GetSessionInfoByTicketWithRouteSGPRO getSessionInfoByTicketWithRouteSGPRO(array $options = [])
- * @method ListAliyunAccount listAliyunAccount(array $options = [])
- * @method GetSessionInfoByMiniTicketWithRoute getSessionInfoByMiniTicketWithRoute(array $options = [])
- * @method GetShortTermAccessKeyForAccount getShortTermAccessKeyForAccount(array $options = [])
+ * @method VerifyAccountLoginToken verifyAccountLoginToken(array $options = [])
  */
 class AasApiResolver extends ApiResolver
 {
@@ -61,34 +61,28 @@ class GetBasicInfoForAccount extends Rpc
 }
 
 /**
- * @method string getAliyunId()
- * @method $this withAliyunId($value)
+ * @method string getPK()
+ * @method $this withPK($value)
  */
-class CreateAliyunAccount extends Rpc
+class GetLoginConfigInfoByPK extends Rpc
 {
 }
 
 /**
- * @method string getHavanaId()
- * @method $this withHavanaId($value)
+ * @method string getPK()
+ * @method $this withPK($value)
  */
-class GetAliyunAccountWithBindTaobaoHid extends Rpc
+class GetBasicAccountInfoByPk extends Rpc
 {
 }
 
 /**
- * @method string getInnerAccountHid()
- * @method $this withInnerAccountHid($value)
+ * @method string getAKSecret()
+ * @method $this withAKSecret($value)
+ * @method string getPK()
+ * @method $this withPK($value)
  */
-class GetAliyunAccountWithBindHid extends Rpc
-{
-}
-
-/**
- * @method string getTicket()
- * @method $this withTicket($value)
- */
-class GetSessionInfoByTicketWithRouteSHRO extends Rpc
+class CreateAccessKeyForAccount extends Rpc
 {
 }
 
@@ -96,15 +90,17 @@ class GetSessionInfoByTicketWithRouteSHRO extends Rpc
  * @method string getTicket()
  * @method $this withTicket($value)
  */
-class GetSessionInfoByTicket extends Rpc
+class GetSessionInfoByMiniTicket extends Rpc
 {
 }
 
 /**
- * @method string getLoginToken()
- * @method $this withLoginToken($value)
+ * @method string getAKId()
+ * @method $this withAKId($value)
+ * @method string getPK()
+ * @method $this withPK($value)
  */
-class VerifyAccountLoginToken extends Rpc
+class DeleteAccessKeyForAccount extends Rpc
 {
 }
 
@@ -121,20 +117,22 @@ class ListAccessKeysForAccount extends Rpc
 }
 
 /**
- * @method string getAKId()
- * @method $this withAKId($value)
+ * @method string getExpireTime()
+ * @method $this withExpireTime($value)
+ * @method string getIsMfaPresent()
+ * @method $this withIsMfaPresent($value)
  * @method string getPK()
  * @method $this withPK($value)
  */
-class DeleteAccessKeyForAccount extends Rpc
+class CreateShortTermAccessKeyForAccount extends Rpc
 {
 }
 
 /**
- * @method string getNationalityCode()
- * @method $this withNationalityCode($value)
+ * @method string getTicket()
+ * @method $this withTicket($value)
  */
-class CreateIntlAliyunAccount extends Rpc
+class GetSessionInfoByMiniTicketWithRoute extends Rpc
 {
 }
 
@@ -143,6 +141,130 @@ class CreateIntlAliyunAccount extends Rpc
  * @method $this withTicket($value)
  */
 class GetSessionInfoByMiniTicketWithRouteSGPRO extends Rpc
+{
+}
+
+/**
+ * @method string getHavanaId()
+ * @method $this withHavanaId($value)
+ */
+class GetAliyunAccountWithBindTaobaoHid extends Rpc
+{
+}
+
+/**
+ * @method string getTicket()
+ * @method $this withTicket($value)
+ */
+class GetSessionInfoByTicketWithRouteSGPRO extends Rpc
+{
+}
+
+/**
+ * @method string getTicket()
+ * @method $this withTicket($value)
+ */
+class GetSessionInfoByMiniTicketWithRouteSHRO extends Rpc
+{
+}
+
+/**
+ * @method string getExpireTime()
+ * @method $this withExpireTime($value)
+ * @method string getIsMfaPresent()
+ * @method $this withIsMfaPresent($value)
+ * @method string getPK()
+ * @method $this withPK($value)
+ */
+class GetShortTermAccessKeyForAccount extends Rpc
+{
+}
+
+/**
+ * @method string getAliyunId()
+ * @method $this withAliyunId($value)
+ */
+class CreateAliyunAccount extends Rpc
+{
+}
+
+/**
+ * @method string getMarker()
+ * @method $this withMarker($value)
+ * @method string getMaxItems()
+ * @method $this withMaxItems($value)
+ */
+class ListAliyunAccount extends Rpc
+{
+}
+
+/**
+ * @method string getTicket()
+ * @method $this withTicket($value)
+ */
+class GetSessionInfoByTicket extends Rpc
+{
+}
+
+/**
+ * @method string getPK()
+ * @method $this withPK($value)
+ * @method string getNewPassword()
+ * @method $this withNewPassword($value)
+ */
+class UpdatePasswordForAccount extends Rpc
+{
+}
+
+/**
+ * @method string getAKStatus()
+ * @method $this withAKStatus($value)
+ * @method string getAKId()
+ * @method $this withAKId($value)
+ * @method string getPK()
+ * @method $this withPK($value)
+ */
+class UpdateAccessKeyStatusForAccount extends Rpc
+{
+}
+
+/**
+ * @method string getTicket()
+ * @method $this withTicket($value)
+ */
+class GetSessionInfoByTicketWithRouteSHRO extends Rpc
+{
+}
+
+/**
+ * @method string getInnerAccountHid()
+ * @method $this withInnerAccountHid($value)
+ */
+class GetAliyunAccountWithBindHid extends Rpc
+{
+}
+
+/**
+ * @method string getTargetPk()
+ * @method $this withTargetPk($value)
+ */
+class GenerateAccountLoginToken extends Rpc
+{
+}
+
+/**
+ * @method string getPK()
+ * @method $this withPK($value)
+ */
+class GetAccountKinshipInfoByPK extends Rpc
+{
+}
+
+/**
+ * @method string getNationalityCode()
+ * @method $this withNationalityCode($value)
+ */
+class CreateIntlAliyunAccount extends Rpc
 {
 }
 
@@ -163,52 +285,6 @@ class GetSessionInfoByTicketWithRoute extends Rpc
 }
 
 /**
- * @method string getAccountStatus()
- * @method $this withAccountStatus($value)
- * @method string getPK()
- * @method $this withPK($value)
- */
-class UpdateStatusForAccount extends Rpc
-{
-}
-
-/**
- * @method string getTicket()
- * @method $this withTicket($value)
- */
-class GetSessionInfoByMiniTicket extends Rpc
-{
-}
-
-/**
- * @method string getTicket()
- * @method $this withTicket($value)
- */
-class GetSessionInfoByMiniTicketWithRouteSHRO extends Rpc
-{
-}
-
-/**
- * @method string getAKStatus()
- * @method $this withAKStatus($value)
- * @method string getAKId()
- * @method $this withAKId($value)
- * @method string getPK()
- * @method $this withPK($value)
- */
-class UpdateAccessKeyStatusForAccount extends Rpc
-{
-}
-
-/**
- * @method string getPK()
- * @method $this withPK($value)
- */
-class GetAccountKinshipInfoByPK extends Rpc
-{
-}
-
-/**
  * @method string getHavanaId()
  * @method $this withHavanaId($value)
  */
@@ -217,24 +293,12 @@ class GetBasicAccountInfoByHavanaId extends Rpc
 }
 
 /**
- * @method string getExpireTime()
- * @method $this withExpireTime($value)
- * @method string getIsMfaPresent()
- * @method $this withIsMfaPresent($value)
+ * @method string getAccountStatus()
+ * @method $this withAccountStatus($value)
  * @method string getPK()
  * @method $this withPK($value)
  */
-class CreateShortTermAccessKeyForAccount extends Rpc
-{
-}
-
-/**
- * @method string getAKSecret()
- * @method $this withAKSecret($value)
- * @method string getPK()
- * @method $this withPK($value)
- */
-class CreateAccessKeyForAccount extends Rpc
+class UpdateStatusForAccount extends Rpc
 {
 }
 
@@ -247,73 +311,9 @@ class IsBindMfaByPk extends Rpc
 }
 
 /**
- * @method string getPK()
- * @method $this withPK($value)
+ * @method string getLoginToken()
+ * @method $this withLoginToken($value)
  */
-class GetLoginConfigInfoByPK extends Rpc
-{
-}
-
-/**
- * @method string getTargetPk()
- * @method $this withTargetPk($value)
- */
-class GenerateAccountLoginToken extends Rpc
-{
-}
-
-/**
- * @method string getPK()
- * @method $this withPK($value)
- */
-class GetBasicAccountInfoByPk extends Rpc
-{
-}
-
-/**
- * @method string getPK()
- * @method $this withPK($value)
- * @method string getNewPassword()
- * @method $this withNewPassword($value)
- */
-class UpdatePasswordForAccount extends Rpc
-{
-}
-
-/**
- * @method string getTicket()
- * @method $this withTicket($value)
- */
-class GetSessionInfoByTicketWithRouteSGPRO extends Rpc
-{
-}
-
-/**
- * @method string getMarker()
- * @method $this withMarker($value)
- * @method string getMaxItems()
- * @method $this withMaxItems($value)
- */
-class ListAliyunAccount extends Rpc
-{
-}
-
-/**
- * @method string getTicket()
- * @method $this withTicket($value)
- */
-class GetSessionInfoByMiniTicketWithRoute extends Rpc
-{
-}
-
-/**
- * @method string getExpireTime()
- * @method $this withExpireTime($value)
- * @method string getIsMfaPresent()
- * @method $this withIsMfaPresent($value)
- * @method string getPK()
- * @method $this withPK($value)
- */
-class GetShortTermAccessKeyForAccount extends Rpc
+class VerifyAccountLoginToken extends Rpc
 {
 }
