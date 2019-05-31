@@ -6,8 +6,8 @@ use AlibabaCloud\Client\Resolver\ApiResolver;
 
 /**
  * @method DoCheckResource doCheckResource(array $options = [])
- * @method DoLogicalDeleteResource doLogicalDeleteResource(array $options = [])
  * @method DoPhysicalDeleteResource doPhysicalDeleteResource(array $options = [])
+ * @method DoLogicalDeleteResource doLogicalDeleteResource(array $options = [])
  */
 class CrApiResolver extends ApiResolver
 {
@@ -86,7 +86,7 @@ class DoCheckResource extends Rpc
  * @method string getTaskIdentifier()
  * @method $this withTaskIdentifier($value)
  */
-class DoLogicalDeleteResource extends Rpc
+class DoPhysicalDeleteResource extends Rpc
 {
 }
 
@@ -114,6 +114,6 @@ class DoLogicalDeleteResource extends Rpc
  * @method string getTaskIdentifier()
  * @method $this withTaskIdentifier($value)
  */
-class DoPhysicalDeleteResource extends Rpc
+class DoLogicalDeleteResource extends Rpc
 {
 }
