@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.112 - 2019-5-31
+- Generated 2015-05-06 for `cr`
+
+
 ## 1.5.111 - 2019-5-30
 - Generated 2013-01-11, 2016-11-11 for `BatchCompute`
 
