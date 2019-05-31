@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.115 - 2019-5-31
+- Generated 2015-05-06 for `cr`
+
+
 ## 1.5.114 - 2019-5-31
 - Generated 2015-05-06 for `cr`
 
