@@ -1,9 +1,9 @@
-ç®€ä½“ä¸­æ–‡ | [English](./SUPPORTED-EN.md)
+¼òÌåÖĞÎÄ | [English](./SUPPORTED-EN.md)
 
-# æ”¯æŒ
-Alibaba Cloud SDK for PHP å·²ç»æ”¯æŒ 130 ä¸ªäº§å“å…± 152 ä¸ªç‰ˆæœ¬çš„å¿«æ·è®¿é—®ï¼Œåˆ—è¡¨å¦‚ä¸‹ï¼š
+# Ö§³Ö
+Alibaba Cloud SDK for PHP ÒÑ¾­Ö§³Ö 131 ¸ö²úÆ·¹² 153 ¸ö°æ±¾µÄ¿ì½İ·ÃÎÊ£¬ÁĞ±íÈçÏÂ£º
 
-| äº§å“      |     ç‰ˆæœ¬     |
+| ²úÆ·      |     °æ±¾     |
 |----------|-------------|
 | [AMS](https://packagist.org/packages/alibabacloud/ams) | V20160201 |
 | [ARMS](https://packagist.org/packages/alibabacloud/arms) | V20160804, V20181015, V20181219 |
@@ -96,6 +96,7 @@ Alibaba Cloud SDK for PHP å·²ç»æ”¯æŒ 130 ä¸ªäº§å“å…± 152 ä¸ªç‰ˆæœ¬çš„å¿«æ·è®
 | [NlsFiletrans](https://packagist.org/packages/alibabacloud/nlsfiletrans) | V20180817 |
 | [Oms](https://packagist.org/packages/alibabacloud/oms) | V20150212, V20151225, V20160615, V20170821 |
 | [Ons](https://packagist.org/packages/alibabacloud/ons) | V20170918, V20190214 |
+| [Oos](https://packagist.org/packages/alibabacloud/oos) | V20190601 |
 | [Openanalytics](https://packagist.org/packages/alibabacloud/openanalytics) | V20180301 |
 | [OssAdmin](https://packagist.org/packages/alibabacloud/ossadmin) | V20130712, V20140326, V20150302, V20150520 |
 | [Ots](https://packagist.org/packages/alibabacloud/ots) | V20160620 |

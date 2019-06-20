@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.160 - 2019-6-20
+- Generated 2019-06-01 for `oos`.
+
+
 ## 1.5.159 - 2019-6-19
 - Test for the new feature.
 

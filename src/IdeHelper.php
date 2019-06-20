@@ -98,6 +98,7 @@ namespace AlibabaCloud;
  * @method static NlsFiletrans\NlsFiletrans nlsFiletrans()
  * @method static Oms\Oms oms()
  * @method static Ons\Ons ons()
+ * @method static Oos\Oos oos()
  * @method static Openanalytics\Openanalytics openanalytics()
  * @method static OssAdmin\OssAdmin ossAdmin()
  * @method static Ots\Ots ots()

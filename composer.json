@@ -133,6 +133,7 @@
         "alibabacloud/nlsfiletrans": "self.version",
         "alibabacloud/oms": "self.version",
         "alibabacloud/ons": "self.version",
+        "alibabacloud/oos": "self.version",
         "alibabacloud/openanalytics": "self.version",
         "alibabacloud/ossadmin": "self.version",
         "alibabacloud/ots": "self.version",
