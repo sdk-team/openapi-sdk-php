@@ -30,7 +30,7 @@ class Roa extends \AlibabaCloud\Client\Resolver\Roa
     public $method = 'POST';
 
     /** @var string */
-    public $serviceCode = 'dsafsd';
+    public $serviceCode = '12334';
 }
 
 /**

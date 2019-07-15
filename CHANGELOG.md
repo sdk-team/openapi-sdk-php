@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.161 - 2019-7-15
+- Debugger.
+
+
 ## 1.5.160 - 2019-6-20
 - Generated 2019-06-01 for `oos`.
 
