@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.169 - 2019-7-18
+- Debugger.
+
+
 ## 1.5.168 - 2019-7-18
 - Generated 2014-02-14 for `Ram`.
 
