@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.172 - 2019-8-19
+- Generated 2019-01-23 for `Drds`.
+
+
 ## 1.5.171 - 2019-7-18
 - Generated 2015-05-01 for `Ram`.
 

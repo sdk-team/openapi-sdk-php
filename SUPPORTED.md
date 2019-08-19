@@ -1,9 +1,9 @@
-¼òÌåÖĞÎÄ | [English](./SUPPORTED-EN.md)
+ç®€ä½“ä¸­æ–‡ | [English](./SUPPORTED-EN.md)
 
-# Ö§³Ö
-Alibaba Cloud SDK for PHP ÒÑ¾­Ö§³Ö 131 ¸ö²úÆ·¹² 153 ¸ö°æ±¾µÄ¿ì½İ·ÃÎÊ£¬ÁĞ±íÈçÏÂ£º
+# æ”¯æŒ
+Alibaba Cloud SDK for PHP å·²ç»æ”¯æŒ 131 ä¸ªäº§å“å…± 154 ä¸ªç‰ˆæœ¬çš„å¿«æ·è®¿é—®ï¼Œåˆ—è¡¨å¦‚ä¸‹ï¼š
 
-| ²úÆ·      |     °æ±¾     |
+| äº§å“      |     ç‰ˆæœ¬     |
 |----------|-------------|
 | [AMS](https://packagist.org/packages/alibabacloud/ams) | V20160201 |
 | [ARMS](https://packagist.org/packages/alibabacloud/arms) | V20160804, V20181015, V20181219 |
@@ -50,7 +50,7 @@ Alibaba Cloud SDK for PHP ÒÑ¾­Ö§³Ö 131 ¸ö²úÆ·¹² 153 ¸ö°æ±¾µÄ¿ì½İ·ÃÎÊ£¬ÁĞ±íÈçÏÂ£º
 | [Domain](https://packagist.org/packages/alibabacloud/domain) | V20180129, V20180208 |
 | [DomainIntl](https://packagist.org/packages/alibabacloud/domainintl) | V20171218 |
 | [Drcloud](https://packagist.org/packages/alibabacloud/drcloud) | V20190213 |
-| [Drds](https://packagist.org/packages/alibabacloud/drds) | V20171016 |
+| [Drds](https://packagist.org/packages/alibabacloud/drds) | V20171016, V20190123 |
 | [Dts](https://packagist.org/packages/alibabacloud/dts) | V20160801 |
 | [Dybaseapi](https://packagist.org/packages/alibabacloud/dybaseapi) | V20170525 |
 | [Dypnsapi](https://packagist.org/packages/alibabacloud/dypnsapi) | V20170525 |
