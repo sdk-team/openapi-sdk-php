@@ -89,6 +89,7 @@ namespace AlibabaCloud;
  * @method static Live\Live live()
  * @method static Lubancloud\Lubancloud lubancloud()
  * @method static Lubanruler\Lubanruler lubanruler()
+ * @method static Lzh\Lzh lzh()
  * @method static Market\Market market()
  * @method static MoPen\MoPen moPen()
  * @method static Mts\Mts mts()
