@@ -61,6 +61,7 @@ namespace AlibabaCloud;
  * @method static EHPC\EHPC eHPC()
  * @method static Eci\Eci eci()
  * @method static Ecs\Ecs ecs()
+ * @method static EcsDemo\EcsDemo ecsDemo()
  * @method static EcsInc\EcsInc ecsInc()
  * @method static Edas\Edas edas()
  * @method static Emr\Emr emr()

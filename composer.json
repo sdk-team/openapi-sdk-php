@@ -96,6 +96,7 @@
         "alibabacloud/ehpc": "self.version",
         "alibabacloud/eci": "self.version",
         "alibabacloud/ecs": "self.version",
+        "alibabacloud/ecsdemo": "self.version",
         "alibabacloud/ecsinc": "self.version",
         "alibabacloud/edas": "self.version",
         "alibabacloud/emr": "self.version",
