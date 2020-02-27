@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.192 - 2020-2-27
+- Generated 2019-02-25 for `sdk-test`.
+
+
 ## 1.5.191 - 2020-2-27
 - Generated 2018-07-13 for `Ft`.
 
