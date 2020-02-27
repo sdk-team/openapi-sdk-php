@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.196 - 2020-2-28
+- Generated 2019-02-25 for `sdk-test`.
+
+
 ## 1.5.195 - 2020-2-28
 - Generated 2019-02-25 for `sdk-test`.
 
