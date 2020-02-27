@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.186 - 2020-2-27
+- Generated 2018-07-13 for `Ft`.
+
+
 ## 1.5.185 - 2020-2-27
 - Generated 2018-07-13 for `Ft`.
 
