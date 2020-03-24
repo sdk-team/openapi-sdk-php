@@ -1,3 +1,0 @@
-java -jar /Users/page/alicloud/portal/tools/sdk.generator.jar sdk-test 2019-02-25 composer "" public /Users/page/alicloud/portal/output/65f989b9-7236-4f75-a03c-afb2bbe48c99/composer-src /Users/page/alicloud/portal/tools/pop_config.properties ""  test openAPI 
-java -jar /Users/page/alicloud/portal/tools/sdk.generator.jar sdk-test 2019-02-25 composer "" public /Users/page/alicloud/portal/output/0ac6d5c7-2762-4f69-ad49-1a3ad737a023/composer-src /Users/page/alicloud/portal/tools/pop_config.properties ""  test openAPI 
-java -jar /Users/page/alicloud/portal/tools/sdk.generator.jar sdk-test 2019-02-25 composer "" public /Users/page/alicloud/portal/output/3f9d6eea-0ce8-4654-9a89-5076b7e17326/composer-src /Users/page/alicloud/portal/tools/pop_config.properties ""  test openAPI 
