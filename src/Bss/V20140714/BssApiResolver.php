@@ -5,16 +5,16 @@ namespace AlibabaCloud\Bss\V20140714;
 use AlibabaCloud\Client\Resolver\ApiResolver;
 
 /**
- * @method QueryForCssOrder queryForCssOrder(array $options = [])
- * @method DescribeCashDetail describeCashDetail(array $options = [])
- * @method OpenCallback openCallback(array $options = [])
  * @method CreateOrder createOrder(array $options = [])
+ * @method DescribeCashDetail describeCashDetail(array $options = [])
  * @method DescribeCouponDetail describeCouponDetail(array $options = [])
- * @method SubscriptionCreateOrderApi subscriptionCreateOrderApi(array $options = [])
- * @method VnoPayCallBackNotify vnoPayCallBackNotify(array $options = [])
- * @method SetResourceBusinessStatus setResourceBusinessStatus(array $options = [])
- * @method VnoBatchRefundOrder vnoBatchRefundOrder(array $options = [])
  * @method DescribeCouponList describeCouponList(array $options = [])
+ * @method OpenCallback openCallback(array $options = [])
+ * @method QueryForCssOrder queryForCssOrder(array $options = [])
+ * @method SetResourceBusinessStatus setResourceBusinessStatus(array $options = [])
+ * @method SubscriptionCreateOrderApi subscriptionCreateOrderApi(array $options = [])
+ * @method VnoBatchRefundOrder vnoBatchRefundOrder(array $options = [])
+ * @method VnoPayCallBackNotify vnoPayCallBackNotify(array $options = [])
  */
 class BssApiResolver extends ApiResolver
 {
@@ -35,7 +35,7 @@ class Rpc extends \AlibabaCloud\Client\Resolver\Rpc
 /**
  * @method string getParamStr()
  */
-class QueryForCssOrder extends Rpc
+class CreateOrder extends Rpc
 {
 
     /**
@@ -53,6 +53,39 @@ class QueryForCssOrder extends Rpc
 }
 
 class DescribeCashDetail extends Rpc
+{
+
+    /** @var string */
+    public $scheme = 'https';
+}
+
+/**
+ * @method string getCouponNumber()
+ * @method $this withCouponNumber($value)
+ */
+class DescribeCouponDetail extends Rpc
+{
+
+    /** @var string */
+    public $scheme = 'https';
+
+    /** @var string */
+    public $method = 'GET';
+}
+
+/**
+ * @method string getStartDeliveryTime()
+ * @method $this withStartDeliveryTime($value)
+ * @method string getPageSize()
+ * @method $this withPageSize($value)
+ * @method string getEndDeliveryTime()
+ * @method $this withEndDeliveryTime($value)
+ * @method string getPageNum()
+ * @method $this withPageNum($value)
+ * @method string getStatus()
+ * @method $this withStatus($value)
+ */
+class DescribeCouponList extends Rpc
 {
 
     /** @var string */
@@ -82,7 +115,7 @@ class OpenCallback extends Rpc
 /**
  * @method string getParamStr()
  */
-class CreateOrder extends Rpc
+class QueryForCssOrder extends Rpc
 {
 
     /**
@@ -100,17 +133,23 @@ class CreateOrder extends Rpc
 }
 
 /**
- * @method string getCouponNumber()
- * @method $this withCouponNumber($value)
+ * @method string getBusinessStatus()
+ * @method $this withBusinessStatus($value)
+ * @method string getResourceOwnerId()
+ * @method $this withResourceOwnerId($value)
+ * @method string getResourceId()
+ * @method $this withResourceId($value)
+ * @method string getResourceOwnerAccount()
+ * @method $this withResourceOwnerAccount($value)
+ * @method string getOwnerAccount()
+ * @method $this withOwnerAccount($value)
+ * @method string getOwnerId()
+ * @method $this withOwnerId($value)
+ * @method string getResourceType()
+ * @method $this withResourceType($value)
  */
-class DescribeCouponDetail extends Rpc
+class SetResourceBusinessStatus extends Rpc
 {
-
-    /** @var string */
-    public $scheme = 'https';
-
-    /** @var string */
-    public $method = 'GET';
 }
 
 /**
@@ -150,46 +189,6 @@ class SubscriptionCreateOrderApi extends Rpc
 /**
  * @method string getParamStr()
  */
-class VnoPayCallBackNotify extends Rpc
-{
-
-    /**
-     * @param string $value
-     *
-     * @return $this
-     */
-    public function withParamStr($value)
-    {
-        $this->data['ParamStr'] = $value;
-        $this->options['query']['paramStr'] = $value;
-
-        return $this;
-    }
-}
-
-/**
- * @method string getBusinessStatus()
- * @method $this withBusinessStatus($value)
- * @method string getResourceOwnerId()
- * @method $this withResourceOwnerId($value)
- * @method string getResourceId()
- * @method $this withResourceId($value)
- * @method string getResourceOwnerAccount()
- * @method $this withResourceOwnerAccount($value)
- * @method string getOwnerAccount()
- * @method $this withOwnerAccount($value)
- * @method string getOwnerId()
- * @method $this withOwnerId($value)
- * @method string getResourceType()
- * @method $this withResourceType($value)
- */
-class SetResourceBusinessStatus extends Rpc
-{
-}
-
-/**
- * @method string getParamStr()
- */
 class VnoBatchRefundOrder extends Rpc
 {
 
@@ -208,20 +207,21 @@ class VnoBatchRefundOrder extends Rpc
 }
 
 /**
- * @method string getStartDeliveryTime()
- * @method $this withStartDeliveryTime($value)
- * @method string getPageSize()
- * @method $this withPageSize($value)
- * @method string getEndDeliveryTime()
- * @method $this withEndDeliveryTime($value)
- * @method string getPageNum()
- * @method $this withPageNum($value)
- * @method string getStatus()
- * @method $this withStatus($value)
+ * @method string getParamStr()
  */
-class DescribeCouponList extends Rpc
+class VnoPayCallBackNotify extends Rpc
 {
 
-    /** @var string */
-    public $scheme = 'https';
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withParamStr($value)
+    {
+        $this->data['ParamStr'] = $value;
+        $this->options['query']['paramStr'] = $value;
+
+        return $this;
+    }
 }
