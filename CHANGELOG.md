@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.226 - 2020-5-26
+- Generated 2019-06-10 for `vod`.
+
+
 ## 1.5.225 - 2020-5-26
 - Generated 2015-09-01 for `ROS`.
 
