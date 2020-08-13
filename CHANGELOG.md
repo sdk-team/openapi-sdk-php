@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.235 - 2020-8-13
+- Generated 2019-02-25 for `sdk-test`.
+
+
 ## 1.5.234 - 2020-5-26
 - Generated 2019-06-10 for `vod`.
 
