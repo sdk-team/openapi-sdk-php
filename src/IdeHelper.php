@@ -116,6 +116,7 @@ namespace AlibabaCloud;
  * @method static Ram\Ram ram()
  * @method static Rds\Rds rds()
  * @method static Rtc\Rtc rtc()
+ * @method static SDK\SDK sDK()
  * @method static Saf\Saf saf()
  * @method static Sas\Sas sas()
  * @method static SasApi\SasApi sasApi()
