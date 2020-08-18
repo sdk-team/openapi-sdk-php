@@ -7,20 +7,30 @@ use AlibabaCloud\Client\Resolver\ApiResolver;
 /**
  * @method BatchAuditTest01 batchAuditTest01(array $options = [])
  * @method BatchAuditTest02 batchAuditTest02(array $options = [])
+ * @method CountCloudProductCallTimes countCloudProductCallTimes(array $options = [])
  * @method DescribeResourceType describeResourceType(array $options = [])
  * @method FTApiAliasApi fTApiAliasApi(array $options = [])
  * @method FtDynamicAddressDubbo ftDynamicAddressDubbo(array $options = [])
  * @method FtDynamicAddressHsf ftDynamicAddressHsf(array $options = [])
  * @method FtEagleEye ftEagleEye(array $options = [])
  * @method FtFlowSpecial ftFlowSpecial(array $options = [])
+ * @method FtFlowSpecial1586868138332 ftFlowSpecial1586868138332(array $options = [])
  * @method FtGatedLaunchPolicy3Api ftGatedLaunchPolicy3Api(array $options = [])
  * @method FtGatedLaunchPolicy4 ftGatedLaunchPolicy4(array $options = [])
  * @method FtGatedLaunchPolicyApi ftGatedLaunchPolicyApi(array $options = [])
  * @method FtIpFlowControl ftIpFlowControl(array $options = [])
  * @method FtParamList ftParamList(array $options = [])
+ * @method GetMigrateStrategyResult getMigrateStrategyResult(array $options = [])
+ * @method GetTairData getTairData(array $options = [])
+ * @method MigrateStrategy migrateStrategy(array $options = [])
+ * @method QueryDomainChangeRecords queryDomainChangeRecords(array $options = [])
  * @method TestDubboRetryApi testDubboRetryApi(array $options = [])
  * @method TestErrorCodeForGateWay testErrorCodeForGateWay(array $options = [])
+ * @method TestFlowStrategy01 testFlowStrategy01(array $options = [])
  * @method TestHttpApi testHttpApi(array $options = [])
+ * @method TestIspHttpValidator testIspHttpValidator(array $options = [])
+ * @method TestXmlServiceRoutePolicy testXmlServiceRoutePolicy(array $options = [])
+ * @method UpdateDomainRecordsRegionId updateDomainRecordsRegionId(array $options = [])
  */
 class FtApiResolver extends ApiResolver
 {
@@ -72,6 +82,60 @@ class BatchAuditTest01 extends Rpc
  */
 class BatchAuditTest02 extends Rpc
 {
+}
+
+/**
+ * @method string getBucUid()
+ * @method $this withBucUid($value)
+ * @method string getBucName()
+ * @method $this withBucName($value)
+ * @method string getBucEmpId()
+ * @method $this withBucEmpId($value)
+ * @method string getCloudProductsJsonString()
+ * @method string getClearCloudCache()
+ * @method string getClearProductCache()
+ */
+class CountCloudProductCallTimes extends Rpc
+{
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withCloudProductsJsonString($value)
+    {
+        $this->data['CloudProductsJsonString'] = $value;
+        $this->options['form_params']['CloudProductsJsonString'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withClearCloudCache($value)
+    {
+        $this->data['ClearCloudCache'] = $value;
+        $this->options['form_params']['ClearCloudCache'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withClearProductCache($value)
+    {
+        $this->data['ClearProductCache'] = $value;
+        $this->options['form_params']['ClearProductCache'] = $value;
+
+        return $this;
+    }
 }
 
 /**
@@ -133,6 +197,14 @@ class FtFlowSpecial extends Rpc
  * @method string getName()
  * @method $this withName($value)
  */
+class FtFlowSpecial1586868138332 extends Rpc
+{
+}
+
+/**
+ * @method string getName()
+ * @method $this withName($value)
+ */
 class FtGatedLaunchPolicy3Api extends Rpc
 {
 }
@@ -154,8 +226,8 @@ class FtGatedLaunchPolicyApi extends Rpc
 }
 
 /**
- * @method string getName()
- * @method $this withName($value)
+ * @method string getStringList()
+ * @method $this withStringList($value)
  */
 class FtIpFlowControl extends Rpc
 {
@@ -190,6 +262,174 @@ class FtParamList extends Rpc
     }
 }
 
+/**
+ * @method string getParentName()
+ * @method string getCurrentPage()
+ * @method $this withCurrentPage($value)
+ * @method string getBucName()
+ * @method $this withBucName($value)
+ * @method string getEnv()
+ * @method $this withEnv($value)
+ * @method string getType()
+ * @method string getBucEmpId()
+ * @method $this withBucEmpId($value)
+ * @method string getStrategyName()
+ * @method string getApiName()
+ * @method $this withApiName($value)
+ * @method string getFlowSpecial()
+ * @method string getPageSize()
+ * @method $this withPageSize($value)
+ * @method string getProductName()
+ * @method $this withProductName($value)
+ * @method string getBucUid()
+ * @method $this withBucUid($value)
+ * @method string getVersionName()
+ * @method $this withVersionName($value)
+ * @method string getStatus()
+ */
+class GetMigrateStrategyResult extends Rpc
+{
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withParentName($value)
+    {
+        $this->data['ParentName'] = $value;
+        $this->options['query']['parentName'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withType($value)
+    {
+        $this->data['Type'] = $value;
+        $this->options['query']['type'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withStrategyName($value)
+    {
+        $this->data['StrategyName'] = $value;
+        $this->options['form_params']['strategyName'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withFlowSpecial($value)
+    {
+        $this->data['FlowSpecial'] = $value;
+        $this->options['query']['flowSpecial'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withStatus($value)
+    {
+        $this->data['Status'] = $value;
+        $this->options['query']['status'] = $value;
+
+        return $this;
+    }
+}
+
+/**
+ * @method array getKeys()
+ * @method string getCacheName()
+ * @method $this withCacheName($value)
+ */
+class GetTairData extends Rpc
+{
+
+    /**
+     * @param array $keys
+     *
+     * @return $this
+     */
+	public function withKeys(array $keys)
+	{
+	    $this->data['Keys'] = $keys;
+		foreach ($keys as $i => $iValue) {
+			$this->options['query']['Keys.' . ($i + 1)] = $iValue;
+		}
+
+		return $this;
+    }
+}
+
+/**
+ * @method string getApiName()
+ * @method string getProductName()
+ * @method $this withProductName($value)
+ * @method string getBucUid()
+ * @method $this withBucUid($value)
+ * @method string getBucName()
+ * @method $this withBucName($value)
+ * @method string getEnv()
+ * @method $this withEnv($value)
+ * @method string getBucEmpId()
+ * @method $this withBucEmpId($value)
+ * @method string getVersionName()
+ * @method $this withVersionName($value)
+ */
+class MigrateStrategy extends Rpc
+{
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withApiName($value)
+    {
+        $this->data['ApiName'] = $value;
+        $this->options['query']['apiName'] = $value;
+
+        return $this;
+    }
+}
+
+/**
+ * @method string getProduct()
+ * @method $this withProduct($value)
+ * @method string getPageSize()
+ * @method $this withPageSize($value)
+ * @method string getBucUid()
+ * @method $this withBucUid($value)
+ * @method string getCurrentPage()
+ * @method $this withCurrentPage($value)
+ * @method string getBucName()
+ * @method $this withBucName($value)
+ * @method string getBucEmpId()
+ * @method $this withBucEmpId($value)
+ */
+class QueryDomainChangeRecords extends Rpc
+{
+}
+
 class TestDubboRetryApi extends Rpc
 {
 }
@@ -209,6 +449,29 @@ class TestErrorCodeForGateWay extends Rpc
 
     /** @var string */
     public $method = 'GET';
+}
+
+/**
+ * @method string getNames()
+ */
+class TestFlowStrategy01 extends Rpc
+{
+
+    /** @var string */
+    public $method = 'PUT';
+
+    /**
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function withNames($value)
+    {
+        $this->data['Names'] = $value;
+        $this->options['form_params']['Names'] = $value;
+
+        return $this;
+    }
 }
 
 /**
@@ -263,4 +526,30 @@ class TestHttpApi extends Rpc
 
         return $this;
     }
+}
+
+class TestIspHttpValidator extends Rpc
+{
+}
+
+/**
+ * @method string getApi()
+ * @method $this withApi($value)
+ */
+class TestXmlServiceRoutePolicy extends Rpc
+{
+}
+
+/**
+ * @method string getDomain()
+ * @method $this withDomain($value)
+ * @method string getBucUid()
+ * @method $this withBucUid($value)
+ * @method string getBucName()
+ * @method $this withBucName($value)
+ * @method string getBucEmpId()
+ * @method $this withBucEmpId($value)
+ */
+class UpdateDomainRecordsRegionId extends Rpc
+{
 }

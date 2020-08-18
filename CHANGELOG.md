@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.245 - 2020-8-18
+- Generated 2018-07-13 for `Ft`.
+
+
 ## 1.5.244 - 2020-8-17
 - Generated 2018-01-01 for `SDK`.
 
