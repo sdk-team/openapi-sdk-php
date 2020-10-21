@@ -29,4 +29,7 @@ class Rpc extends \AlibabaCloud\Client\Resolver\Rpc
  */
 class DescribeRegions extends Rpc
 {
+
+    /** @var string */
+    public $endpointType = 'innerAPI';
 }
